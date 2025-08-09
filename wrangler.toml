@@ -5,6 +5,6 @@ compatibility_date = "2025-03-25"
 directory = "./dist"
 
 [build]
-command = "pnpm i && pnpm run build"
+command = "pnpm run build"
 cwd = "./"
 watch_dir = "./"

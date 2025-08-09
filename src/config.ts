@@ -87,19 +87,29 @@ export const profileConfig: ProfileConfig = {
 		// `pnpm add @iconify-json/<icon-set-name>`
 		// fa6-brands -> https://icones.js.org/collection/fa6-brands
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter",
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
-		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://wyf9.top/t/gh",
+		},
+		{
+			name: "Telegram",
+			icon: "fa6-brands:telegram",
+			url: "https://wyf9.top/t/tg",
+		},
+		{
+			name: "Bilibili",
+			icon: "fa6-brands:bilibili",
+			url: "https://wyf9.top/t/b",
+		},
+		{
+			name: "X",
+			icon: "fa6-brands:x-twitter",
+			url: "https://wyf9.top/t/x",
+		},
+		{
+			name: "Discord",
+			icon: "fa6-brands:discord",
+			url: "/posts/contact#discord",
 		},
 	],
 };
