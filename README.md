@@ -6,22 +6,25 @@ Site: [wyf9.top](https://wyf9.top)
 
 ## 常用命令
 
-- 启动开发服务器 (`:4321`)
+|                    |                          |
+| :----------------- | :----------------------- |
+| `pnpm run dev`     | 启动开发服务器 (`:4321`) |
+| `pnpm run preview` | 启动预览服务器           |
+| `pnpm run build`   | 构建静态站点             |
 
-```sh
-pnpm run dev
-```
+## Frontmatter 语法 (官方)
 
-- 启动预览服务器
-
-```sh
-pnpm run preview
-```
-
-- 构建静态站点
-
-```sh
-pnpm run build
+```yaml
+---
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
+draft: false
+lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
+---
 ```
 
 ## LICENSE
