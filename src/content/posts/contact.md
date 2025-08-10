@@ -25,6 +25,6 @@ Email: [`wyf9[@]wyf9.top`](https://wyf9.top/t/e)
 
 用户名: `wyf9` ([`992995849946804304`](https://wyf9.top/t/dc))
 
-服务器:
+服务器: [`wyf9's Server`](https://wyf9.top/t/dcs)
 
 <iframe src="https://discord.com/widget?id=1061629481267245086&theme=dark" width="800" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>

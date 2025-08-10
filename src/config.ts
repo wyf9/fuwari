@@ -70,6 +70,11 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
+			name: "Contact",
+			url: "/posts/contact", // Internal links should not include the base path, as it is automatically added
+			external: false, // Show an external link icon and will open in a new tab
+		},
+		{
 			name: "GitHub",
 			url: "https://github.com/wyf9/blog", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
@@ -78,7 +83,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/favicon/android-chrome-512x512.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "/favicon.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "wyf9",
 	bio: "什么都有的个人 blog?",
 	links: [
