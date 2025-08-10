@@ -1,16 +1,16 @@
 {
-  "name": "fuwari",
+  "name": "wyf9s-blog",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "check": "astro check",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build || astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
     "type-check": "tsc --noEmit --isolatedDeclarations",
-    "new-post": "node scripts/new-post.js",
+    "new": "node scripts/new-post.js",
     "format": "biome format --write ./src",
     "lint": "biome check --write ./src",
     "preinstall": "npx only-allow pnpm"
@@ -72,5 +72,5 @@
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^13.0.2"
   },
-  "packageManager": "pnpm@9.14.4"
+  "packageManager": "pnpm@10.14.0"
 }

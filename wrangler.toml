@@ -1,0 +1,10 @@
+name = "wyf9s-blog"
+compatibility_date = "2025-03-25"
+
+[assets]
+directory = "./dist"
+
+[build]
+command = "pnpm run build"
+cwd = "./"
+watch_dir = "./"
