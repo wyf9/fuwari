@@ -3,7 +3,7 @@ title: Contact / 联系方式
 published: 2025-08-09
 description: '我的联系方式列表'
 image: ''
-tags: [dynamic]
+tags: ['dynamic']
 category: 'pinned'
 draft: false
 lang: ''
