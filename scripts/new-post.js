@@ -1,4 +1,5 @@
 /* This is a script to create a new post markdown file with front-matter */
+/* biome-ignore-all lint/style/useNodejsImportProtocol: idk but my editor recommends */
 
 import fs from "fs"
 import path from "path"
