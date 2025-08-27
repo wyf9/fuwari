@@ -1,6 +1,7 @@
 {
     "origins": [
-        "https://wyf9.top"
+        "https://wyf9.top",
+        "http://localhost:4321"
     ],
     "defaultCommentOrder": "newest"
 }

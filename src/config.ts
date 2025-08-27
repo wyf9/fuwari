@@ -69,11 +69,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "Contact",
-			url: "/posts/contact", // Internal links should not include the base path, as it is automatically added
-			external: false, // Show an external link icon and will open in a new tab
-		},
+		LinkPreset.Contact,
 		{
 			name: "GitHub",
 			url: "https://github.com/wyf9/fuwari", // Internal links should not include the base path, as it is automatically added
@@ -114,7 +110,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
-			url: "/posts/contact#discord",
+			url: "/contact#discord",
 		},
 	],
 };

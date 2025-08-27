@@ -5,8 +5,11 @@
 # Shortten
 /p/* /posts/:splat
 
+# Deprecated
+/posts/contact /contact
+
 # Contact
-/t/c /posts/contact
+/t/c /contact
 /t/gh https://github.com/wyf9
 /t/tg https://t.me/wyf9official
 /t/b https://space.bilibili.com/591766561
