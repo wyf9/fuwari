@@ -3,7 +3,7 @@ title: HayFrp 自动签到
 published: 2025-08-25
 description: '记录自己写的一个 hayfrp 自动签到脚本, 部署在 Cloudflare Workers 上, 实现每天 1:14 自动签到获取流量, 并将结果推送到 Discord'
 image: './hayfrp-auto-sign/0-pic.png'
-tags: ['HayFrp', '开源项目', 'Cloudflare']
+tags: ['HayFrp', 'OpenSource', 'Cloudflare']
 category: '记录'
 draft: false 
 lang: ''
@@ -21,7 +21,7 @@ lang: ''
 
 ![](./hayfrp-auto-sign/2-cronjob-2.png)
 
-但是我发现了这种方式的缺点:
+但是我发现了这种方式的缺点
 
 - **无法第一时间知道签到结果** (除非执行失败)
 - 不方便获取 rwmc key (需要下载客户端)

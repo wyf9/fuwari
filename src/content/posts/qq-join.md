@@ -3,7 +3,7 @@ title: 加群问题
 published: 2025-08-11
 description: 'SiiWay 官方交流群 (QQ) 加群问题'
 image: './qq-join/siiway-qq.png'
-tags: ['dynamic']
+tags: ['dynamic', 'QQ']
 category: 'pinned'
 draft: false 
 lang: ''

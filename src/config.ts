@@ -98,11 +98,6 @@ export const profileConfig: ProfileConfig = {
 			url: "https://wyf9.top/t/tg",
 		},
 		{
-			name: "Bilibili",
-			icon: "fa6-brands:bilibili",
-			url: "https://wyf9.top/t/b",
-		},
-		{
 			name: "X",
 			icon: "fa6-brands:x-twitter",
 			url: "https://wyf9.top/t/x",
@@ -111,6 +106,11 @@ export const profileConfig: ProfileConfig = {
 			name: "Discord",
 			icon: "fa6-brands:discord",
 			url: "/contact#discord",
+		},
+		{
+			name: "Twitch",
+			icon: "fa6-brands:twitch",
+			url: "https://wyf9.top/t/t",
 		},
 	],
 };
