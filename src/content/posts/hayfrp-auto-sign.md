@@ -9,11 +9,11 @@ draft: false
 lang: ''
 ---
 
-## 省流
+# 省流
 
 ::github{repo="wyf9/hayfrp-auto-sign"}
 
-## 起因
+# 起因
 
 几个月前, HayFrp 站长在交流群中说可以用设备的 `rwmc_key` 来直接执行签到, 于是我在 cron-job.org 创建了一个计划任务来每天自动签到:
 
@@ -26,7 +26,7 @@ lang: ''
 - **无法第一时间知道签到结果** (除非执行失败)
 - 不方便获取 rwmc key (需要下载客户端)
 
-## 于是
+# 于是
 
 - 坏消息: learn.hayfrp.com 寄了
 

@@ -19,6 +19,8 @@ Bilibili: `wyf9_` ([`591766561`](https://wyf9.top/t/b))
 
 X *(Twitter)*: [`wyf9_`](https://wyf9.top/t/x)
 
+Twitch: [`wyf9`](https://wyf9.top/t/t)
+
 Email: [`wyf9[@]wyf9.top`](https://wyf9.top/t/e)
 
 ## Discord

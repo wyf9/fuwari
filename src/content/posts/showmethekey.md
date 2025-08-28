@@ -86,7 +86,7 @@ mkdir build && cd build && meson setup --prefix=/usr . .. && meson compile && su
 
 ![](./showmethekey/4-top.png)
 
-## 后记
+# 后记
 
 `Show Me The Key` 这个名称的由来:
 
