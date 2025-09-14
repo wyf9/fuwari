@@ -2,7 +2,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "biomejs.biome",
   "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
@@ -18,5 +18,6 @@
     "quickfix.biome": "always",
     "source.organizeImports.biome": "always"
   },
-  "frontMatter.dashboard.openOnStart": false
+  "frontMatter.dashboard.openOnStart": false,
+  "Codegeex.RepoIndex": true
 }
