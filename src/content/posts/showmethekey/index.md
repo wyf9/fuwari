@@ -2,7 +2,7 @@
 title: showmethekey 安装记录
 published: 2025-08-19
 description: '记录在 Ubuntu 24.04 上安装 showmethekey (让我看键) 的过程, Wayland 上优秀的 screenkey 替代品'
-image: './showmethekey/0-pic.png'
+image: './0-pic.png'
 tags: ['Apps', 'Linux', 'Ubuntu']
 category: '记录'
 draft: false 
@@ -17,7 +17,7 @@ lang: ''
 
 重新搜索 `wayland 键盘操作显示`, 在结果中找到了这个:
 
-![](./showmethekey/1-search-result.png)
+![](./1-search-result.png)
 
 ::github{repo="AlynxZhou/showmethekey"}
 
@@ -71,11 +71,11 @@ mkdir build && cd build && meson setup --prefix=/usr . .. && meson compile && su
 
 打开安装好的 Show Me The Key
 
-![](./showmethekey/2-launch.png)
+![](./2-launch.png)
 
 点击左上角开关, 输入密码授权 root 权限即可使用
 
-![](./showmethekey/3-sudo.png)
+![](./3-sudo.png)
 
 > [!TIP]
 > Q: 为什么要授权 root 权限?
@@ -84,13 +84,13 @@ mkdir build && cd build && meson setup --prefix=/usr . .. && meson compile && su
 
 最后, 右键窗口标题可以置顶:
 
-![](./showmethekey/4-top.png)
+![](./4-top.png)
 
 # 后记
 
 `Show Me The Key` 这个名称的由来:
 
-![](./showmethekey/5-name.png)
+![](./5-name.png)
 
 > I think visualkey sounds like Visual Studio and it's horrible.
 

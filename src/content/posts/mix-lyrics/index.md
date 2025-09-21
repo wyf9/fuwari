@@ -2,7 +2,7 @@
 title: 合并歌词脚本
 published: 2025-08-28
 description: '因为 Waylyrics 只支持导出原始歌词 / 翻译后歌词, 不支持同时导出, 遂用 Python + pylrc 写了一个合并歌词的小脚本'
-image: './mix-lyrics/0-pic.png'
+image: './0-pic.png'
 tags: ['Python', 'Lyrics', '开源软件']
 category: '记录'
 draft: false 
@@ -13,11 +13,11 @@ lang: ''
 
 最近在使用 Waylyrics 配合 Audacious 显示歌词, 偶然间发现它的歌词源比 MusicPlayer2 要更加丰富, 但是只能分别导出原始歌词和翻译后歌词:
 
-![](./mix-lyrics/1-waylyrics.png)
+![](./1-waylyrics.png)
 
 导出的歌词内容:
 
-![](./mix-lyrics/2-compare.png)
+![](./2-compare.png)
 
 > 左为原歌词, 右为翻译后歌词
 
@@ -103,4 +103,4 @@ if __name__ == '__main__':
 
 # 效果
 
-![](./mix-lyrics/3-result.png)
+![](./3-result.png)

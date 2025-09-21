@@ -2,7 +2,7 @@
 title: 又做了一个拆分双语歌词的工具
 published: 2025-09-14
 description: '因为 MusicPlayer2 下载的歌词文件原歌词和翻译在一行, 很多软件无法识别, 就做了一个 Python 脚本来转换成双行歌词'
-image: './lyric-split-oneline/0-pic.png'
+image: './0-pic.png'
 tags: ['Python', 'Lyrics', '开源软件']
 category: '记录'
 draft: false 
@@ -32,13 +32,13 @@ graph TB
 
 MusicPlayer2 从网易云源下载歌词:
 
-![](./lyric-split-oneline/1-musicplayer2-download-lyric.png)
+![](./1-musicplayer2-download-lyric.png)
 
 因此, 下载到的歌词是 **`[时间戳]原文 / 译文`** 的格式, 而这种格式**很多软件都无法识别**, 会直接当作单语歌词来处理:
 
-![Waylyrics](./lyric-split-oneline/3-waylyrics.png)
+![Waylyrics](./3-waylyrics.png)
 
-![Salt Player](./lyric-split-oneline/4-salt-player.png)
+![Salt Player](./4-salt-player.png)
 
 如你所见, 上面 MusicPlayer2 的编辑歌词界面中也有互转选项, 但是 **太麻烦**, 于是我在两个库 + Grok 的帮助下写出了这个拆分歌词的脚本.
 

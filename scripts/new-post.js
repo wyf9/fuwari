@@ -21,7 +21,7 @@ Usage: npm run new-post -- <filename>`)
   process.exit(1) // Terminate the script and return error code 1
 }
 
-let fileName = args[0]
+// let fileName = args[0]
 
 // Add .md extension if not present
 // const fileExtensionRegex = /\.(md|mdx)$/i
@@ -31,7 +31,7 @@ let fileName = args[0]
 
 // const targetDir = "./src/content/posts/"
 // const fullPath = path.join(targetDir, fileName)
-const fullPath = `./src/content/posts/${fileName}/index.md`;
+const fullPath = `./src/content/posts/${args[0]}/index.md`;
 
 if (fs.existsSync(fullPath)) {
   console.error(`Error: File ${fullPath} already exists `)
