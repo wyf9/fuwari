@@ -3,7 +3,7 @@ title: From NameSilo to Spaceship (手把手教程)
 published: 2025-09-04
 description: '记录 wyf9.top 域名从 NameSilo 转出到 Spaceship 的过程'
 image: './namesilo-to-spaceship/0-pic.png'
-tags: ['Domain', 'Spaceship']
+tags: ['域名', 'Spaceship']
 category: '教程'
 draft: false 
 lang: ''

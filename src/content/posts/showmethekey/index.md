@@ -3,7 +3,7 @@ title: showmethekey 安装记录
 published: 2025-08-19
 description: '记录在 Ubuntu 24.04 上安装 showmethekey (让我看键) 的过程, Wayland 上优秀的 screenkey 替代品'
 image: './showmethekey/0-pic.png'
-tags: ['Apps', 'Ubuntu']
+tags: ['Apps', 'Linux', 'Ubuntu']
 category: '记录'
 draft: false 
 lang: ''

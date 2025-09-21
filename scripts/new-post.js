@@ -24,13 +24,14 @@ Usage: npm run new-post -- <filename>`)
 let fileName = args[0]
 
 // Add .md extension if not present
-const fileExtensionRegex = /\.(md|mdx)$/i
-if (!fileExtensionRegex.test(fileName)) {
-  fileName += ".md"
-}
+// const fileExtensionRegex = /\.(md|mdx)$/i
+// if (!fileExtensionRegex.test(fileName)) {
+//   fileName += ".md"
+// }
 
-const targetDir = "./src/content/posts/"
-const fullPath = path.join(targetDir, fileName)
+// const targetDir = "./src/content/posts/"
+// const fullPath = path.join(targetDir, fileName)
+const fullPath = `./src/content/posts/${fileName}/index.md`;
 
 if (fs.existsSync(fullPath)) {
   console.error(`Error: File ${fullPath} already exists `)
@@ -55,6 +56,6 @@ lang: ''
 ---
 `
 
-fs.writeFileSync(path.join(targetDir, fileName), content)
+fs.writeFileSync(fullPath, content)
 
 console.log(`Post ${fullPath} created`)

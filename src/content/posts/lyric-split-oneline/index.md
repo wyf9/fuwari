@@ -3,7 +3,7 @@ title: 又做了一个拆分双语歌词的工具
 published: 2025-09-14
 description: '因为 MusicPlayer2 下载的歌词文件原歌词和翻译在一行, 很多软件无法识别, 就做了一个 Python 脚本来转换成双行歌词'
 image: './lyric-split-oneline/0-pic.png'
-tags: ['Python', 'Lyrics', 'OpenSource']
+tags: ['Python', 'Lyrics', '开源软件']
 category: '记录'
 draft: false 
 lang: ''

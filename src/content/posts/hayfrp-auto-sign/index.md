@@ -3,7 +3,7 @@ title: HayFrp 自动签到
 published: 2025-08-25
 description: '记录自己写的一个 hayfrp 自动签到脚本, 部署在 Cloudflare Workers 上, 实现每天 1:14 自动签到获取流量, 并将结果推送到 Discord'
 image: './hayfrp-auto-sign/0-pic.png'
-tags: ['HayFrp', 'OpenSource', 'Cloudflare']
+tags: ['HayFrp', '开源软件', 'Cloudflare']
 category: '记录'
 draft: false 
 lang: ''

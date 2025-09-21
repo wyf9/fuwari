@@ -3,7 +3,7 @@ title: 合并歌词脚本
 published: 2025-08-28
 description: '因为 Waylyrics 只支持导出原始歌词 / 翻译后歌词, 不支持同时导出, 遂用 Python + pylrc 写了一个合并歌词的小脚本'
 image: './mix-lyrics/0-pic.png'
-tags: ['Python', 'Lyrics', 'OpenSource']
+tags: ['Python', 'Lyrics', '开源软件']
 category: '记录'
 draft: false 
 lang: ''
