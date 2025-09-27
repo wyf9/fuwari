@@ -1,0 +1,271 @@
+functions: 250927-1.md
+
+### 1. 初等数论
+#### 素数判断（试除法，O(sqrt(n))）
+```cpp
+// 判断 n 是否为素数
+bool is_prime(long long n) {
+    if (n <= 1) return false;  // 1、0、负数非素数
+    if (n <= 3) return true;   // 2、3 是素数
+    if (n % 2 == 0 || n % 3 == 0) return false;  // 排除偶数和 3 的倍数
+    for (long long i = 5; i * i <= n; i += 6) {  // 检查 6k±1
+        if (n % i == 0 || n % (i + 2) == 0) return false;
+    }
+    return true;
+}
+// 用法：cout << is_prime(1000000007) << endl; // true
+// 注意：n ≤ 10^12 用 long long，i*i 防溢出
+```
+
+#### 线性筛（求 1~n 素数，O(n)）
+```cpp
+const int MAXN = 1e6 + 10;
+bool is_prime[MAXN]; int prime[MAXN], cnt = 0;
+// 求 1~n 的素数，存入 prime 数组
+void sieve(int n) {
+    memset(is_prime, true, sizeof(is_prime));
+    is_prime[0] = is_prime[1] = false;
+    for (int i = 2; i <= n; i++) {
+        if (is_prime[i]) prime[++cnt] = i;
+        for (int j = 1; j <= cnt && i * prime[j] <= n; j++) {
+            is_prime[i * prime[j]] = false;
+            if (i % prime[j] == 0) break;
+        }
+    }
+}
+// 用法：sieve(100); for(int i=1; i<=cnt; i++) cout << prime[i] << " ";
+// 注意：MAXN 依题调整，空间 O(n)
+```
+
+#### 最大公约数（GCD，迭代版，O(log n)）
+```cpp
+// 求 a 和 b 的最大公约数
+long long gcd(long long a, long long b) {
+    while (b != 0) {
+        long long t = b;
+        b = a % b;
+        a = t;
+    }
+    return a;
+}
+// 用法：cout << gcd(48, 18) << endl; // 6
+// 注意：a、b ≥ 0，负数用 abs(a)，b=0 时返回 a
+```
+
+#### 最小公倍数（LCM，基于 GCD）
+```cpp
+// 求 a 和 b 的最小公倍数
+long long lcm(long long a, long long b) {
+    return a / gcd(a, b) * b;  // 先除防溢出
+}
+// 用法：cout << lcm(4, 6) << endl; // 12
+// 注意：a*b 可能溢出，需 long long
+```
+
+### 2. 高精度运算
+#### 高精度加法（数组模拟）
+```cpp
+// 输入：a, b 为倒序数字数组（个位在 a[0]）
+// 输出：c 为倒序结果
+vector<int> add(vector<int> a, vector<int> b) {
+    vector<int> c;
+    int t = 0;  // 进位
+    for (int i = 0; i < a.size() || i < b.size() || t; i++) {
+        if (i < a.size()) t += a[i];
+        if (i < b.size()) t += b[i];
+        c.push_back(t % 10);
+        t /= 10;
+    }
+    return c;
+}
+// 用法：vector<int> a = {1,2,3}, b = {4,5,6}; // 321 + 654
+// vector<int> c = add(a, b); // c = {5,7,9} (975)
+// 注意：输入倒序存储，输出倒序，需反转打印
+```
+
+#### 高精度乘法（大数 * 小数）
+```cpp
+// 输入：a 为倒序数字数组，b 为普通整数
+// 输出：c 为倒序结果
+vector<int> mul(vector<int> a, int b) {
+    vector<int> c;
+    int t = 0;
+    for (int i = 0; i < a.size() || t; i++) {
+        if (i < a.size()) t += a[i] * b;
+        c.push_back(t % 10);
+        t /= 10;
+    }
+    return c;
+}
+// 用法：vector<int> a = {1,2,3}; // 321
+// vector<int> c = mul(a, 2); // c = {2,4,6} (642)
+// 注意：b 不宜过大，需高精度则改用 vector
+```
+
+### 3. 链表
+#### 单链表操作（插入、删除、遍历）
+```cpp
+struct Node {
+    int val;
+    Node* next;
+    Node(int v) : val(v), next(nullptr) {}
+};
+// 头插（在 head 后插入 val）
+void insert(Node* head, int val) {
+    Node* p = new Node(val);
+    p->next = head->next;
+    head->next = p;
+}
+// 删除第一个 val
+void remove(Node* head, int val) {
+    Node* prev = head;
+    while (prev->next && prev->next->val != val) prev = prev->next;
+    if (prev->next) {
+        Node* del = prev->next;
+        prev->next = del->next;
+        delete del;
+    }
+}
+// 遍历输出
+void print(Node* head) {
+    for (Node* p = head->next; p; p = p->next) cout << p->val << " ";
+    cout << endl;
+}
+// 用法：Node* head = new Node(0); insert(head, 1); insert(head, 2);
+// print(head); // 2 1
+// 注意：哨兵头简化操作，注意 delete 防内存泄漏
+```
+
+### 4. 二分算法
+#### 二分查找（有序数组）
+```cpp
+// 在有序数组 a 中找 target，返回下标（-1 表示未找到）
+int binary_search(vector<int>& a, int target) {
+    int l = 0, r = a.size() - 1;
+    while (l <= r) {
+        int mid = l + (r - l) / 2;  // 防溢出
+        if (a[mid] == target) return mid;
+        else if (a[mid] < target) l = mid + 1;
+        else r = mid - 1;
+    }
+    return -1;
+}
+// 用法：vector<int> a = {1,3,5,7}; cout << binary_search(a, 3); // 1
+// 注意：数组需升序，l <= r 确保检查 mid
+```
+
+#### 二分答案（最小化最大值）
+```cpp
+// 示例：检查 mid 是否可行，返回答案
+bool check(int mid, vector<int>& a) {
+    // 自定义逻辑，如判断是否能以 mid 为最大值分配
+    return true;  // 替换为具体逻辑
+}
+int binary_answer(vector<int>& a, int max_val) {
+    int l = 0, r = max_val;
+    while (l < r) {
+        int mid = l + (r - l) / 2;
+        if (check(mid, a)) r = mid;  // 可行，尝试更小
+        else l = mid + 1;  // 不可行，增大
+    }
+    return l;
+}
+// 用法：根据题目实现 check 函数
+// 注意：check 函数需单调性，l<r 确保收敛
+```
+
+### 5. 递归算法
+#### 记忆化递归（斐波那契）
+```cpp
+const int MAXN = 1e5 + 10;
+long long memo[MAXN];
+// 计算第 n 个斐波那契数
+long long fib(int n) {
+    if (memo[n] != -1) return memo[n];
+    if (n <= 1) return n;
+    return memo[n] = fib(n-1) + fib(n-2);
+}
+// 用法：memset(memo, -1, sizeof(memo)); cout << fib(10); // 55
+// 注意：memo 需初始化，防栈溢出（n 大时用迭代）
+```
+
+### 6. 分治算法
+#### 快速排序（O(n log n) 平均）
+```cpp
+// 对 a[l..r] 排序
+void quick_sort(vector<int>& a, int l, int r) {
+    if (l >= r) return;
+    int pivot = a[l + (r - l) / 2], i = l - 1, j = r + 1;
+    while (i < j) {
+        do i++; while (a[i] < pivot);
+        do j--; while (a[j] > pivot);
+        if (i < j) swap(a[i], a[j]);
+    }
+    quick_sort(a, l, j);
+    quick_sort(a, j + 1, r);
+}
+// 用法：vector<int> a = {3,1,4,2}; quick_sort(a, 0, a.size()-1);
+// 注意：pivot 随机化防退化，O(n^2) 最坏
+```
+
+#### 归并排序（O(n log n)，稳定）
+```cpp
+// 合并 a[l..mid] 和 a[mid+1..r]
+void merge(vector<int>& a, int l, int mid, int r) {
+    vector<int> temp(r - l + 1);
+    int i = l, j = mid + 1, k = 0;
+    while (i <= mid && j <= r) temp[k++] = (a[i] <= a[j] ? a[i++] : a[j++]);
+    while (i <= mid) temp[k++] = a[i++];
+    while (j <= r) temp[k++] = a[j++];
+    for (int p = 0; p < k; p++) a[l + p] = temp[p];
+}
+// 归并排序
+void merge_sort(vector<int>& a, int l, int r) {
+    if (l >= r) return;
+    int mid = l + (r - l) / 2;
+    merge_sort(a, l, mid);
+    merge_sort(a, mid + 1, r);
+    merge(a, l, mid, r);
+}
+// 用法：vector<int> a = {3,1,4,2}; merge_sort(a, 0, a.size()-1);
+// 注意：空间 O(n)，稳定排序
+```
+
+### 7. 贪心算法
+#### 区间调度（最大不相交区间）
+```cpp
+struct Interval {
+    int start, end;
+};
+bool cmp(Interval a, Interval b) { return a.end < b.end; }
+// 返回最多不相交区间数
+int interval_schedule(vector<Interval>& intervals) {
+    if (intervals.empty()) return 0;
+    sort(intervals.begin(), intervals.end(), cmp);
+    int cnt = 1, last = intervals[0].end;
+    for (int i = 1; i < intervals.size(); i++) {
+        if (intervals[i].start >= last) {
+            cnt++;
+            last = intervals[i].end;
+        }
+    }
+    return cnt;
+}
+// 用法：vector<Interval> intervals = {{1,3}, {2,4}, {3,5}}; cout << interval_schedule(intervals); // 2
+// 注意：需证明贪心正确性，end 排序
+```
+
+### 8. 算法优化（记忆化、剪枝示例）
+#### 记忆化递归（优化递归）
+```cpp
+const int MAXN = 1e5 + 10;
+long long dp[MAXN];
+// 示例：计算某种组合问题
+long long solve(int n) {
+    if (n <= 1) return 1;
+    if (dp[n] != -1) return dp[n];
+    return dp[n] = solve(n-1) + solve(n-2);  // 替换为题目逻辑
+}
+// 用法：memset(dp, -1, sizeof(dp)); cout << solve(10);
+// 注意：dp 需初始化，剪枝减少重复计算
+```
