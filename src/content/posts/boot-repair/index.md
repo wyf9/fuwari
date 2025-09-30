@@ -3,7 +3,7 @@ title: 使用 boot-repair 拯救你 Linux 电脑的引导!
 published: 2025-09-27
 description: '有时开电脑会突然进 grub, 退出提示 device not found, 此时就可以用 livecd + boot-repair 工具解决'
 image: './0-pic.png'
-tags: ['Linux', 'Ubuntu', 'Grub']
+tags: ['Linux', 'Ubuntu']
 category: '记录'
 draft: false
 lang: ''
