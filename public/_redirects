@@ -21,3 +21,8 @@
 
 # Sitemap
 /sitemap.xml /sitemap-index.xml 200
+
+# Keys
+/.gpg https://github.com/wyf9.gpg
+/.ssh https://github.com/wyf9.keys
+/.keys https://github.com/wyf9.keys

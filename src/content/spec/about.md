@@ -4,6 +4,9 @@
 
 也可以看看: https://siiway.top/members/wyf9
 
+- GPG Key: [Here](https://wyf9.top/.gpg)
+- SSH Keys: [Here](https://wyf9.top/.keys)
+
 ## About This Site
 
 本站使用 **[fuwari](https://github.com/saicaca/fuwari)** 构建, 托管在 **[Cloudflare Workers](https://workers.cloudflare.com)**.
