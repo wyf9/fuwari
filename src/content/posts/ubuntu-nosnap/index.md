@@ -44,12 +44,12 @@ sudo apt install firefox thunderbird thunderbird-gnome-support -y
 # 5
 sudo snap remove desktop-security-center firmware-updater gnome-42-2204 gtk-common-themes prompting-client snap-store snapd-desktop-integration
 sudo snap remove bare core22
-sudo snap remove snapd 6
+sudo snap remove snapd
 # 6
 sudo apt purge snapd -y
 sudo apt autoremove -y
 # 7
-echo 'Package: snapd *
+echo 'Package: snapd
 Pin: release a=*
 Pin-Priority: -10
 
