@@ -159,7 +159,7 @@ sudo apt autoremove
 
 ```yaml
 # /etc/apt/preferences.d/nosnap
-Package: snapd *
+Package: snapd
 Pin: release a=*
 Pin-Priority: -10
 
