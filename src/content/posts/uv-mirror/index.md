@@ -10,14 +10,15 @@ lang: ''
 ---
 
 > [!TIP]
-> 本文中的 Linux 路径在 Windows 上同理 (如 `/home/wyf9/.config/uv/uv.toml` -> `C:\Users\wyf9\.config\uv\uv.toml`)
+> 本文中的 Linux 路径在 Windows 上同理 (如 `/home/wyf9/.config/uv/uv.toml` -> `C:\Users\wyf9\.config\uv\uv.toml`) <br/>
+> Mac: 没用过，自己改
 
 # TL; DR
 
 > Too long, didn't read
 
 ```bash
-# Linux/Mac
+# Linux
 nano /home/$USER/.config/uv/uv.toml
 ```
 
@@ -122,8 +123,6 @@ index = [
 > 教育镜像，更新较快。
 
 ## pip 如何设置
-
-> 给我用 uv!!!
 
 临时:
 

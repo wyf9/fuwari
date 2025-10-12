@@ -108,4 +108,4 @@ sudo boot-repair
 ![success](./13-success.png)
 
 > [!TIP]
-> 建议复制关闭窗口后打开的日志, 如出现问题可发邮件到 **[boot.repair[@]gmail.com](boot.repair@gmail.com)** 反馈
+> 建议复制关闭窗口后打开的日志, 如出现问题可发邮件到 **[boot.repair[@]gmail.com](mailto:boot.repair@gmail.com)** 反馈
