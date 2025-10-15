@@ -1,9 +1,10 @@
 {
   "strictLineBreaks": true,
   "showLineNumber": true,
-  "alwaysUpdateLinks": false,
+  "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./",
   "newFileLocation": "current",
-  "promptDelete": false
+  "promptDelete": false,
+  "useMarkdownLinks": true
 }
