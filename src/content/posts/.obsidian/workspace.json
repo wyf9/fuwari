@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bedrock-linux-waydroid/index.md",
+                "file": "spaceship-cf-dnssec/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -170,24 +170,26 @@
   },
   "active": "d2fc81f6a1b00bb1",
   "lastOpenFiles": [
+    "spaceship-cf-dnssec/3-compare.png",
+    "spaceship-cf-dnssec/2-spaceship.png",
+    "spaceship-cf-dnssec/0-pic.png",
+    "spaceship-cf-dnssec/1-cf.png",
+    "spaceship-cf-dnssec/index.md",
     "qq-join/index.md",
+    "linux-newinst/index.md",
+    "spaceship-cf-dnssec",
     "bedrock-linux-waydroid/index.md",
+    "linux-newinst",
     "bedrock-linux-waydroid/6-no-ashmem.png",
     "bedrock-linux-waydroid/5-cannot-launch.png",
     "bedrock-linux-waydroid/4-init-ok.png",
     "bedrock-linux-waydroid/3-wait-init.png",
     "bedrock-linux-waydroid/Pasted image 20251014233317.png",
     "bedrock-linux-waydroid/2-waydroid.png",
-    "mc-bedrock-on-linux/Pasted image 20251014230021.png",
-    "mc-bedrock-on-linux/2-waydroid-website.png",
-    "bedrock-linux-waydroid/1-flatpak.png",
-    "bedrock-linux-waydroid/0-pic.png",
     "mc-bedrock-on-linux/未命名.md",
     "bedrock-linux-waydroid",
     "uv-mirror/index.md",
     "boot-repair/index.md",
-    "linux-newinst/index.md",
-    "linux-newinst",
     "未命名.md"
   ]
 }
