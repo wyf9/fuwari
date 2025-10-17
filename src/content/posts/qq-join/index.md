@@ -30,7 +30,7 @@ Q1: xxx, Q2: xxx, Q3: xxx
 
 ## Q2
 
-SiiWay 团队的**官方域名**是?
+SiiWay 团队的 **官方<font color=red>域名</font>** 是?
 
 > [!TIP]
 > **提示:** 还是搜索
@@ -39,14 +39,14 @@ SiiWay 团队的**官方域名**是?
 
 ## Q3
 
-你使用过 SiiWay Team (或成员) 的**哪个项目**?
+你使用过 SiiWay Team (或其成员) 的**哪个项目**?
 
 > [!TIP]
 > *这个应该最好答吧*
 
 ## Q4
 
-SiiWay 团队的**创始人之一**是?
+SiiWay 团队的 **<font color=red>创始人</font>之一** 是?
 
 > [!TIP]
 > **提示:** 不止一个人, 但你只需要填**其中一个**
@@ -55,14 +55,14 @@ SiiWay 团队的**创始人之一**是?
 
 ## Q5
 
-SiiWay 团队 **(大部分) 核心成员** 现居哪里?
+SiiWay 团队 **(大部分) <font color=red>核心成员</font>** 现居哪里?
 
 > [!TIP]
 > **提示:** 和上面一样
 
 ## Q6
 
-SiiWay 团队目前有多少人 **(除了核心成员)**?
+SiiWay 团队目前有多少人 **(<font color=red>除了核心成员</font>)**?
 
 > [!TIP]
 > **提示:** 和上面一样
