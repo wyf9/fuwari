@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7c5ee0e326b17db1",
+        "id": "84946d9bf5e2639e",
         "type": "tabs",
         "children": [
           {
-            "id": "d2fc81f6a1b00bb1",
+            "id": "26157fbb11cd9548",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spaceship-cf-dnssec/index.md",
+                "file": "linux-newinst/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -140,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "linux-newinst/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "index 的大纲"
             }
           }
         ],
@@ -153,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,15 +168,16 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "d2fc81f6a1b00bb1",
+  "active": "26157fbb11cd9548",
   "lastOpenFiles": [
+    "linux-obs-proxy/index.md",
+    "linux-newinst/index.md",
+    "spaceship-cf-dnssec/index.md",
     "spaceship-cf-dnssec/3-compare.png",
     "spaceship-cf-dnssec/2-spaceship.png",
     "spaceship-cf-dnssec/0-pic.png",
     "spaceship-cf-dnssec/1-cf.png",
-    "spaceship-cf-dnssec/index.md",
     "qq-join/index.md",
-    "linux-newinst/index.md",
     "spaceship-cf-dnssec",
     "bedrock-linux-waydroid/index.md",
     "linux-newinst",
