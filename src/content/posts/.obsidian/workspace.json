@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux-newinst/index.md",
-                "mode": "source",
+                "file": "block-itdog/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux-newinst/index.md",
+                "file": "block-itdog/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +170,17 @@
   },
   "active": "26157fbb11cd9548",
   "lastOpenFiles": [
-    "linux-obs-proxy/index.md",
+    "block-itdog/Pasted image 20251020064656.png",
+    "block-itdog/5-cf-result.png",
+    "block-itdog/4-cf-config.png",
+    "block-itdog/3-cf-custom-rule.png",
+    "block-itdog/2-cf.png",
+    "block-itdog/1-doc.png",
+    "block-itdog/0-pic.png",
     "linux-newinst/index.md",
+    "block-itdog/index.md",
+    "block-itdog",
+    "linux-obs-proxy/index.md",
     "spaceship-cf-dnssec/index.md",
     "spaceship-cf-dnssec/3-compare.png",
     "spaceship-cf-dnssec/2-spaceship.png",
@@ -181,12 +190,6 @@
     "spaceship-cf-dnssec",
     "bedrock-linux-waydroid/index.md",
     "linux-newinst",
-    "bedrock-linux-waydroid/6-no-ashmem.png",
-    "bedrock-linux-waydroid/5-cannot-launch.png",
-    "bedrock-linux-waydroid/4-init-ok.png",
-    "bedrock-linux-waydroid/3-wait-init.png",
-    "bedrock-linux-waydroid/Pasted image 20251014233317.png",
-    "bedrock-linux-waydroid/2-waydroid.png",
     "mc-bedrock-on-linux/未命名.md",
     "bedrock-linux-waydroid",
     "uv-mirror/index.md",

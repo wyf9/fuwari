@@ -56,3 +56,7 @@ lang: ""
 ![](3-compare.png)
 
 保存，完事。
+
+# Ref
+
+封面图源: https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-20-zh

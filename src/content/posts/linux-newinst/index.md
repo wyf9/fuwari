@@ -289,6 +289,47 @@ https://github.com/waylyrics/waylyrics/blob/master/doc/INSTALLATION.md
 - aur
 - build
 
+构建 & 安装:
+
+```bash
+# 安装工具链
+sudo apt-get install git nano build-essential libssl-dev libgtk-4-dev libdbus-1-dev libmimalloc-dev gettext rustup
+rustup update stable
+# Clone 项目
+mkdir gittemp
+cd gittemp
+git clone https://github.com/waylyrics/waylyrics.git
+cd waylyrics
+# 默认设置编译
+export WAYLYRICS_THEME_PRESETS_DIR=/usr/share/waylyrics/themes
+cargo build --release --locked --target-dir target
+# 复制产物
+sudo cp ./target/release/waylyrics /usr/bin/
+sudo chmod 755 /usr/bin/waylyrics
+# 编译 schemas
+sudo cp ./metainfo/io.github.waylyrics.Waylyrics.gschema.xml /usr/share/glib-2.0/schemas/
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+# 汉化
+cd ./locales/zh_CN/LC_MESSAGES/
+msgfmt waylyrics.po
+sudo cp ./messages.mo /usr/share/locale/zh_CN/LC_MESSAGES/waylyrics.mo
+# 设置图标
+cd ../../..
+sudo cp -r ./res/icons/* /usr/share/icons/
+# 设置桌面图标
+sudo cp ./metainfo/io.github.waylyrics.Waylyrics.desktop /usr/share/applications/
+sudo chmod 644 /usr/share/applications/io.github.waylyrics.Waylyrics.desktop
+# 设置主题
+sudo mkdir -p /usr/share/waylyrics/themes/
+sudo cp -r ./themes/* /usr/share/waylyrics/themes/
+sudo chmod 755 -R /usr/share/waylyrics/themes/
+# 设置软件详情
+sudo cp ./metainfo/io.github.waylyrics.Waylyrics.metainfo.xml /usr/share/metainfo/
+sudo update-desktop-database
+```
+
+>From https://github.com/waylyrics/waylyrics/blob/master/doc/BUILD_GUIDE_UBUNTU.zh_cn.md
+
 # 命令行工具
 
 ## **q**

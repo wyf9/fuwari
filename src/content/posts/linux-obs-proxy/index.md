@@ -11,6 +11,7 @@ lang: ''
 
 # 前言
 
+>[!TIP]
 > *可直接跳转到: [# (成功) GOST](#成功-gost)*
 
 最近因为 Clash Verge 占用太大, 切换到了 Mihomo Core, 但发现 OBS 直播连不上了:
@@ -23,7 +24,6 @@ lang: ''
 
 ![grok's answer](./2-grok-answer.png)
 
-> [!TIP]
 > https://grok.com/share/c2hhcmQtNA%3D%3D_22494f12-c044-4fcb-9b48-0ca6dfed06e1
 
 # (失败) Proxychains
@@ -63,7 +63,7 @@ sudo apt install proxychains -y
 
 无果, 只好放弃这个方案.
 
-## (成功) GOST
+# (成功) GOST
 
 ::github{repo="go-gost/gost"}
 
@@ -88,7 +88,7 @@ gost -L=tcp://:1935/hkg06.contribute.live-video.net:1935 -F=socks5://127.0.0.1:1
 ```
 
 > [!IMPORTANT]
-> 替换 `:11451` 为你的 soocks 监听端口
+> 替换 `:11451` 为你的 soocks 监听端口 <br/>
 > 直播 rtmp 服务器地址 (Twitch) 在 https://ingest.twitch.tv/ingests 查找
 
 > 看到如下提示即为成功启动
