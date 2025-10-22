@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "84946d9bf5e2639e",
+        "id": "290b8458affa1ac0",
         "type": "tabs",
         "children": [
           {
-            "id": "26157fbb11cd9548",
+            "id": "bcfd691e7b73d046",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "block-itdog/index.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "新标签页"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "block-itdog/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -168,8 +163,9 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "26157fbb11cd9548",
+  "active": "bcfd691e7b73d046",
   "lastOpenFiles": [
+    "block-itdog/index.md",
     "block-itdog/Pasted image 20251020064656.png",
     "block-itdog/5-cf-result.png",
     "block-itdog/4-cf-config.png",
@@ -178,14 +174,12 @@
     "block-itdog/1-doc.png",
     "block-itdog/0-pic.png",
     "linux-newinst/index.md",
-    "block-itdog/index.md",
     "block-itdog",
     "linux-obs-proxy/index.md",
     "spaceship-cf-dnssec/index.md",
     "spaceship-cf-dnssec/3-compare.png",
     "spaceship-cf-dnssec/2-spaceship.png",
     "spaceship-cf-dnssec/0-pic.png",
-    "spaceship-cf-dnssec/1-cf.png",
     "qq-join/index.md",
     "spaceship-cf-dnssec",
     "bedrock-linux-waydroid/index.md",

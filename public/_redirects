@@ -24,5 +24,6 @@
 
 # Keys
 /.gpg https://github.com/wyf9.gpg
-/.ssh https://github.com/wyf9.keys
 /.keys https://github.com/wyf9.keys
+/.ssh https://github.com/wyf9.keys
+/.pub https://github.com/wyf9.keys

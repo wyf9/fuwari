@@ -112,6 +112,16 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:twitch",
 			url: "https://wyf9.top/t/t",
 		},
+		{
+			name: "Bilibili",
+			icon: "fa6-brands:bilibili",
+			url: "https://wyf9.top/t/b",
+		},
+		{
+			name: "Email",
+			icon: "fa6-solid:envelope",
+			url: 'https://wyf9.top/t/e'
+		},
 	],
 };
 
