@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "290b8458affa1ac0",
+        "id": "c7ea4ce83a3aa4d2",
         "type": "tabs",
         "children": [
           {
-            "id": "bcfd691e7b73d046",
+            "id": "028ccf8721727c07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "cloudflared-advanced/index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "index"
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cloudflared-advanced/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -136,20 +142,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "cloudflared-advanced/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "index 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,30 +170,34 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "bcfd691e7b73d046",
+  "active": "a5814d42ca5a352f",
   "lastOpenFiles": [
+    "cloudflared-advanced/13-tcp-test.png",
+    "cloudflared-advanced/12-test-svc.png",
+    "cloudflared-advanced/11-tcp.png",
+    "cloudflared-advanced/10-ssh-conn.png",
+    "cloudflared-advanced/9-ssh-config.png",
+    "cloudflared-advanced/8-ssh.png",
+    "cloudflared-advanced/index.md",
+    "cloudflared-advanced/7-http.png",
+    "cloudflared-advanced/6-connectors.png",
+    "cloudflared-advanced/5-setup-cmd.png",
+    "cloudflared-advanced/4-setup.png",
+    "cloudflared-advanced/3-tun-name.png",
     "block-itdog/index.md",
-    "block-itdog/Pasted image 20251020064656.png",
-    "block-itdog/5-cf-result.png",
-    "block-itdog/4-cf-config.png",
-    "block-itdog/3-cf-custom-rule.png",
-    "block-itdog/2-cf.png",
-    "block-itdog/1-doc.png",
-    "block-itdog/0-pic.png",
     "linux-newinst/index.md",
+    "cloudflared-advanced",
+    "ubuntu-nosnap/index.md",
+    "uv-mirror/index.md",
+    "bedrock-linux-waydroid/index.md",
     "block-itdog",
     "linux-obs-proxy/index.md",
     "spaceship-cf-dnssec/index.md",
-    "spaceship-cf-dnssec/3-compare.png",
-    "spaceship-cf-dnssec/2-spaceship.png",
-    "spaceship-cf-dnssec/0-pic.png",
     "qq-join/index.md",
     "spaceship-cf-dnssec",
-    "bedrock-linux-waydroid/index.md",
     "linux-newinst",
     "mc-bedrock-on-linux/未命名.md",
     "bedrock-linux-waydroid",
-    "uv-mirror/index.md",
     "boot-repair/index.md",
     "未命名.md"
   ]
