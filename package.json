@@ -16,6 +16,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
+    "css-parser": "https://github.com/ramya-rao-a/css-parser.git",
     "@astrojs/check": "^0.9.5",
     "@astrojs/rss": "^4.0.13",
     "@astrojs/sitemap": "^3.6.0",
