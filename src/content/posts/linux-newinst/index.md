@@ -187,6 +187,28 @@ https://github.com/FiniteSingularity/obs-composite-blur?tab=readme-ov-file#insta
 - Flatpak
 - bin
 
+## **PrismLauncher**
+
+✅
+
+>一个全平台的 Minecraft Java 启动器
+
+https://prismlauncher.org/download/
+
+- deb
+- rpm
+- aur
+- Flatpak
+- bin
+- ...
+
+## Steam
+
+https://store.steampowered.com/about/
+
+- deb
+- ...
+
 # 网络工具
 
 ## Clash Verge Rev
@@ -223,6 +245,16 @@ sudo setcap cap_net_bind_service,cap_net_admin=+ep $(which mihomo)
 
 # 实用工具
 
+## **GIMP**
+
+✅
+
+>图片编辑器
+
+https://www.gimp.org/downloads/
+
+- Flatpak
+- AppImage
 ## **Ulauncher**
 
 ✅
@@ -330,6 +362,28 @@ sudo update-desktop-database
 
 >From https://github.com/waylyrics/waylyrics/blob/master/doc/BUILD_GUIDE_UBUNTU.zh_cn.md
 
+## **Bottles**
+
+✅
+
+>Wine / Proton 兼容层管理器，用来运行 WIndows 应用
+
+https://github.com/bottlesdevs/Bottles
+
+- Flatpak
+## **MusicPlayer2**
+
+✅
+
+>Windows 下的全能本地音乐播放器 (我主要用来下歌词 & 封面)
+
+>[!IMPORTANT]
+>需要 Wine / Proton 兼容层 <br/>
+>[Here](#bottles)
+
+https://github.com/zhongyang219/MusicPlayer2/releases/latest
+
+- *exe*
 # 命令行工具
 
 ## **q**
@@ -388,9 +442,10 @@ https://github.com/emmanuel-ferdman/gh-gonest
 
 ```bash
 gh extension install emmanuel-ferdman/gh-gonest
+# 运行: gh gonest
 ```
 
-### **Cloudflared**
+## **Cloudflared**
 
 ✅
 

@@ -10,6 +10,8 @@ category: 教程
 draft: false
 lang: ""
 ---
+Linux DO: https://linux.do/t/topic/1091998
+
 # 知周所众
 
 Cloudflare Tunnel 可以用来把你本地的**网站**映射到公网 (前提是你的域名已经添加到 Cloudflare)
@@ -58,6 +60,7 @@ https://one.dash.cloudflare.com/
 安装完成后，`Connectors` 应该会出现你的机器，这时就可以继续了
 
 ![](6-connectors.png)
+
 # 穿透你的服务
 
 ## HTTP 网站
@@ -98,6 +101,7 @@ Host ALIAS
 ![](10-ssh-conn.png)
 
 >也可以去 Cloudflare Access 配置 WebSSH，但我没有绑信用卡所以不讲
+
 ## TCP 服务
 
 假设你的服务监听 `localhost:9876`，想用 `example-tcp.wyf9.top` 访问，按下图配置：

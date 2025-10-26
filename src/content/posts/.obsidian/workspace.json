@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cloudflared-advanced/index.md",
+                "file": "linux-newinst/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cloudflared-advanced/index.md",
+                "file": "linux-newinst/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,20 +170,19 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "a5814d42ca5a352f",
+  "active": "028ccf8721727c07",
   "lastOpenFiles": [
+    "cloudflared-advanced/index.md",
     "cloudflared-advanced/13-tcp-test.png",
     "cloudflared-advanced/12-test-svc.png",
     "cloudflared-advanced/11-tcp.png",
     "cloudflared-advanced/10-ssh-conn.png",
     "cloudflared-advanced/9-ssh-config.png",
     "cloudflared-advanced/8-ssh.png",
-    "cloudflared-advanced/index.md",
     "cloudflared-advanced/7-http.png",
     "cloudflared-advanced/6-connectors.png",
     "cloudflared-advanced/5-setup-cmd.png",
     "cloudflared-advanced/4-setup.png",
-    "cloudflared-advanced/3-tun-name.png",
     "block-itdog/index.md",
     "linux-newinst/index.md",
     "cloudflared-advanced",

@@ -1,12 +1,15 @@
 ---
 title: uv 换源 (设置镜像源)
 published: 2025-10-01
-description: '既然 pip 可以换源, uv... 当然可以! (Windows / Linux / Mac 通用)'
-image: './0-pic.png'
-tags: ['Python', 'uv']
-category: '教程'
-draft: false 
-lang: ''
+description: 既然 pip 可以换源, uv... 当然可以! (Windows / Linux / Mac 通用)
+image: ./0-pic.png
+tags:
+  - Python
+  - uv
+  - 镜像源
+category: 教程
+draft: false
+lang: ""
 ---
 
 > [!TIP]
@@ -46,7 +49,7 @@ index = [
 
 从以上文档中, 我们便可以知道:
 
-- uv 的配置文件在 `(用户家目录)/.config/uv/uv.toml`
+- uv 的配置文件在 `~/.config/uv/uv.toml`
 - 可以在里面配置镜像源
 
 如果你只想设置一个镜像源:
