@@ -1,10 +1,16 @@
-export const friends: { name: string; desc: string; avatar: string; url: string, pin?: boolean }[] = [
+export const friends: {
+	name: string;
+	desc: string;
+	avatar: string;
+	url: string;
+	pin?: boolean;
+}[] = [
 	{
 		name: "SiiWay Team Home",
 		desc: "SiiWay 团队官方主页",
 		avatar: "https://siiway.top/favicon.png",
 		url: "https://siiway.top",
-        pin: true
+		pin: true,
 	},
 	{
 		name: "Shattered217のBlog",
@@ -31,5 +37,17 @@ export const friends: { name: string; desc: string; avatar: string; url: string,
 		desc: "非淡泊无以明志，非宁静无以致远",
 		avatar: "https://www.fis.ink/img/logo.png",
 		url: "https://blog.fis.ink",
+	},
+	{
+		name: "AcoFork Blog",
+		desc: "Protect What You Love.",
+		avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
+		url: "https://blog.2b2x.cn",
+	},
+	{
+		name: "Ad_closeNN 的小站",
+		desc: "永远相信美好的事情即将发生",
+		avatar: "https://adclosenn.top/assets/avatar.jpg",
+		url: "https://adclosenn.top",
 	},
 ];
