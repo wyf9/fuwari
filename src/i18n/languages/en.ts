@@ -4,6 +4,7 @@ import type { Translation } from "../translation";
 export const en: Translation = {
 	[Key.home]: "Home",
 	[Key.about]: "About",
+	[Key.contact]: "Contact",
 	[Key.archive]: "Archive",
 	[Key.search]: "Search",
 
@@ -35,4 +36,11 @@ export const en: Translation = {
 	[Key.author]: "Author",
 	[Key.publishedAt]: "Published at",
 	[Key.license]: "License",
+
+	[Key.friends]: "Friend Links",
+	[Key.friendsDescription]: "A collection of awesome blogs I love to follow!",
+	[Key.addFriendLink]: "Add Your Site",
+	[Key.addFriendLinkDescription]:
+		"Want to join the friend links? Submit a pull request to my",
+	[Key.addFriendLinkText]: "GitHub repository",
 };

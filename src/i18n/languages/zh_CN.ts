@@ -36,4 +36,10 @@ export const zh_CN: Translation = {
 	[Key.author]: "作者",
 	[Key.publishedAt]: "发布于",
 	[Key.license]: "许可协议",
+
+	[Key.friends]: "友链",
+	[Key.friendsDescription]: "我喜欢关注的精彩博客集合！",
+	[Key.addFriendLink]: "添加你的网站",
+	[Key.addFriendLinkDescription]: "想加入友链？请提交一个 Pull Request 到我的",
+	[Key.addFriendLinkText]: "GitHub 仓库",
 };

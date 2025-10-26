@@ -20,9 +20,9 @@ export const siteConfig: SiteConfig = {
 		src: "https://imgapi.siiway.top/image/h", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
-			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			enable: true, // Display the credit text of the banner image
+			text: "SiiWay ImgAPI", // Credit text to be displayed
+			url: "https://imgapi.siiway.top", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -62,6 +62,10 @@ export const siteConfig: SiteConfig = {
 			sizes: "512x512",
 		},
 	],
+	friendLink: {
+		enable: true,
+		link: "https://github.com/wyf9/fuwari?tab=contributing-ov-file#友链",
+	},
 };
 
 export const navBarConfig: NavBarConfig = {
@@ -70,6 +74,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		LinkPreset.Contact,
+		LinkPreset.Friends,
 		{
 			name: "GitHub",
 			url: "https://github.com/wyf9/fuwari", // Internal links should not include the base path, as it is automatically added
@@ -120,7 +125,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa6-solid:envelope",
-			url: 'https://wyf9.top/t/e'
+			url: "https://wyf9.top/t/e",
 		},
 	],
 };

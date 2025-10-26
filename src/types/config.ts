@@ -36,6 +36,11 @@ export type SiteConfig = {
 	};
 
 	favicon: Favicon[];
+
+	friendLink: {
+		enable: boolean;
+		link: string;
+	}
 };
 
 export type Favicon = {
@@ -48,7 +53,8 @@ export enum LinkPreset {
 	Home = 0,
 	Archive = 1,
 	About = 2,
-	Contact = 3
+	Contact = 3,
+	Friends = 4,
 }
 
 export type NavBarLink = {

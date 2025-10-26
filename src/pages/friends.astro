@@ -1,0 +1,104 @@
+---
+/** biome-ignore-all assist/source/organizeImports: nope */
+
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+import I18nKey from "../i18n/i18nKey";
+import { i18n } from "../i18n/translation";
+import { parse } from "yaml";
+import { readFile } from "node:fs/promises";
+import { siteConfig } from "../config";
+
+// Load friends.yaml
+const friendsData = await readFile("src/content/friends.yaml", "utf-8");
+const friends = parse(friendsData) as {
+  name: string;
+  desc: string;
+  url: string;
+  avatar: string;
+}[];
+---
+
+<MainGridLayout
+  title={i18n(I18nKey.friends)}
+  description={i18n(I18nKey.friendsDescription)}
+>
+  <div
+    class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32"
+  >
+    <div class="card-base z-10 px-9 py-6 relative w-full">
+      <h1 class="text-3xl font-bold mb-6">{i18n(I18nKey.friends)}</h1>
+
+      <!-- Friend Links Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {
+          friends.map((friend) => (
+            <a
+              href={friend.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center p-4 border rounded-[var(--radius-large)] hover:shadow-lg transition-shadow bg-white dark:bg-gray-800 min-w-0"
+            >
+              {friend.avatar && (
+                <img
+                  src={friend.avatar}
+                  alt={`${friend.name} avatar`}
+                  class="w-12 h-12 rounded-full mr-4 object-cover"
+                />
+              )}
+              <div class="flex-1">
+                <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
+                  {friend.name}
+                </h2>
+                <p class="text-sm text-gray-600 dark:text-gray-400 break-words line-clamp-3">
+                  {friend.desc || "A cool blog to explore!"}
+                </p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+
+      <!-- Submission Section -->
+      <section class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">
+          {i18n(I18nKey.addFriendLink)}
+        </h2>
+        <p class="text-gray-600 dark:text-gray-400">
+          {i18n(I18nKey.addFriendLinkDescription)}{" "}
+          <a
+            href={siteConfig.friendLink.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-500 hover:underline"
+          >
+            {i18n(I18nKey.addFriendLinkText)}
+          </a>.
+        </p>
+      </section>
+    </div>
+  </div>
+</MainGridLayout>
+
+<style>
+  .hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+  }
+  .transition-shadow {
+    transition:
+      box-shadow 0.2s ease,
+      transform 0.2s ease;
+  }
+  .break-words {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>
