@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux-newinst/index.md",
+                "file": "firefox-no-fingerprinting/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -170,8 +170,19 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "028ccf8721727c07",
+  "active": "a5814d42ca5a352f",
   "lastOpenFiles": [
+    "firefox-no-fingerprinting/0-pic.png",
+    "firefox-no-fingerprinting/1-geetest-failed.png",
+    "firefox-no-fingerprinting/3-disable.png",
+    "firefox-no-fingerprinting/2-think-twice.png",
+    "firefox-no-fingerprinting/index.md",
+    "linux-newinst/index.md",
+    "firefox-no-fingerprinting",
+    "firefox-disable-fingerprinting/index.md",
+    "firefox-disable-fingerprinting",
+    "cf-snippet-getip/index.md",
+    "cf-snippet-getip/0-pic.png",
     "cloudflared-advanced/index.md",
     "cloudflared-advanced/13-tcp-test.png",
     "cloudflared-advanced/12-test-svc.png",
@@ -179,12 +190,7 @@
     "cloudflared-advanced/10-ssh-conn.png",
     "cloudflared-advanced/9-ssh-config.png",
     "cloudflared-advanced/8-ssh.png",
-    "cloudflared-advanced/7-http.png",
-    "cloudflared-advanced/6-connectors.png",
-    "cloudflared-advanced/5-setup-cmd.png",
-    "cloudflared-advanced/4-setup.png",
     "block-itdog/index.md",
-    "linux-newinst/index.md",
     "cloudflared-advanced",
     "ubuntu-nosnap/index.md",
     "uv-mirror/index.md",
