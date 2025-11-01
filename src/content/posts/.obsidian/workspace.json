@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "firefox-no-fingerprinting/index.md",
+                "file": "linux-newinst/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -114,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "linux-newinst/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "index 的出链列表"
             }
           },
           {
@@ -142,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cloudflared-advanced/index.md",
+                "file": "linux-newinst/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -151,12 +152,12 @@
               "title": "index 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,13 +171,13 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "a5814d42ca5a352f",
+  "active": "e2aa9c502747e430",
   "lastOpenFiles": [
+    "firefox-no-fingerprinting/index.md",
     "firefox-no-fingerprinting/0-pic.png",
     "firefox-no-fingerprinting/1-geetest-failed.png",
     "firefox-no-fingerprinting/3-disable.png",
     "firefox-no-fingerprinting/2-think-twice.png",
-    "firefox-no-fingerprinting/index.md",
     "linux-newinst/index.md",
     "firefox-no-fingerprinting",
     "firefox-disable-fingerprinting/index.md",
@@ -189,7 +190,6 @@
     "cloudflared-advanced/11-tcp.png",
     "cloudflared-advanced/10-ssh-conn.png",
     "cloudflared-advanced/9-ssh-config.png",
-    "cloudflared-advanced/8-ssh.png",
     "block-itdog/index.md",
     "cloudflared-advanced",
     "ubuntu-nosnap/index.md",

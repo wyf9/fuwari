@@ -209,6 +209,34 @@ https://store.steampowered.com/about/
 - deb
 - ...
 
+## 音视频软件
+
+## **OpenShot**
+
+✅
+
+>开源, 低性能机器友好的视频编辑器
+
+https://www.openshot.org/zh-hans/download/
+
+- AppImage
+- PPA
+
+## **VLC**
+
+✅
+
+>全能视频播放器
+
+https://www.videolan.org/vlc/#download
+
+- deb
+- ...
+
+```bash
+sudo apt install vlc
+```
+
 # 网络工具
 
 ## Clash Verge Rev
