@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux-newinst/index.md",
+                "file": "bashrc-ps1/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux-newinst/index.md",
+                "file": "bashrc-ps1/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,14 +171,21 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "e2aa9c502747e430",
+  "active": "a5814d42ca5a352f",
   "lastOpenFiles": [
+    "bashrc-ps1/4-no-git-and-newline.png",
+    "bashrc-ps1/3-no-newline.png",
+    "bashrc-ps1/2-no-git.png",
+    "bashrc-ps1/1-git.png",
+    "bashrc-ps1/0-pic.png",
+    "linux-newinst/index.md",
+    "bashrc-ps1/index.md",
+    "bashrc-ps1",
     "firefox-no-fingerprinting/index.md",
     "firefox-no-fingerprinting/0-pic.png",
     "firefox-no-fingerprinting/1-geetest-failed.png",
     "firefox-no-fingerprinting/3-disable.png",
     "firefox-no-fingerprinting/2-think-twice.png",
-    "linux-newinst/index.md",
     "firefox-no-fingerprinting",
     "firefox-disable-fingerprinting/index.md",
     "firefox-disable-fingerprinting",
@@ -186,10 +193,6 @@
     "cf-snippet-getip/0-pic.png",
     "cloudflared-advanced/index.md",
     "cloudflared-advanced/13-tcp-test.png",
-    "cloudflared-advanced/12-test-svc.png",
-    "cloudflared-advanced/11-tcp.png",
-    "cloudflared-advanced/10-ssh-conn.png",
-    "cloudflared-advanced/9-ssh-config.png",
     "block-itdog/index.md",
     "cloudflared-advanced",
     "ubuntu-nosnap/index.md",
