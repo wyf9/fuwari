@@ -14,7 +14,7 @@ lang: ""
 ---
 # Linux
 
-## 完整版 (换行 :white_check_mark:, Git :white_check_mark:)
+## 完整版 (换行 ✅, Git ✅)
 
 效果:
 
@@ -87,7 +87,7 @@ PS1=' ${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S"
 # end prompt
 ```
 
-## 无 Git 版 (换行 :white_check_mark:, Git :x:)
+## 无 Git 版 (换行 ✅, Git ❌)
 
 效果:
 
@@ -98,7 +98,7 @@ PS1=' ${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S"
 PS1='${debian_chroot:+($debian_chroot) }\[\e[1;32m\] $(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w\[\e[0m\]\n\$ '
 ```
 
-## 无换行版 (换行 :x:, Git :white_check_mark:)
+## 无换行版 (换行 ❌, Git ✅)
 
 效果:
 
@@ -171,7 +171,7 @@ PS1='${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S")
 # end prompt
 ```
 
-## 无换行 & Git 版 (换行 :x:, Git :x:)
+## 无换行 & Git 版 (换行 ❌, Git ❌)
 
 效果:
 
@@ -250,8 +250,6 @@ if %SHOW_GIT%==1 (
 ## PowerShell (未测试)
 
 ```powershell
-# Set-Prompt.ps1 – PowerShell 版可配置提示符
-# v2025.11.02.1
 # 用法: . .\Set-Prompt.ps1 -ShowGit $true -NewLine $true
 
 param(
