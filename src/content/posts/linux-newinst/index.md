@@ -399,6 +399,18 @@ sudo update-desktop-database
 https://github.com/bottlesdevs/Bottles
 
 - Flatpak
+
+### 功能授权
+
+```bash
+# 创建桌面启动项
+flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
+# 添加 Steam 库中应用 / 游戏
+flatpak override com.usebottles.bottles --filesystem=~/.local/share/Steam
+flatpak override com.usebottles.bottles --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
+```
+
+> From https://docs.usebottles.com/bottles/programs
 ## **MusicPlayer2**
 
 ✅
