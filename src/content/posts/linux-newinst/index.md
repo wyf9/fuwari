@@ -19,6 +19,8 @@ lang: ""
 
 > 如 失效 / 建议增加 / 建议修改 直接评论或 [联系我](https://wyf9.top/t/c)
 
+## AppImage 前置
+
 > [!IMPORTANT]
 > AppImage 需要 FUSE 来运行，安装:
 
@@ -30,6 +32,15 @@ sudo apt install libfuse2t64
 
 **其他版本说明**: https://github.com/AppImage/AppImageKit/wiki/FUSE#install-fuse
 
+## Flatpak 前置
+
+```bash
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+**其他版本说明**: 
 # Ubuntu 特供
 
 ## **Firefox & Thunderbird PPA**
@@ -50,7 +61,7 @@ Package: thunderbird*
 Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 32767' | sudo tee /etc/apt/preferences.d/mozillateamppa
 # 4. 安装 PPA 版 Firefox & Thunderbird
-sudo apt install firefox thunderbird thunderbird-gnome-support -y
+sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgrades
 # 5. 删除所有 Snap 包
 sudo snap remove desktop-security-center firmware-updater gnome-42-2204 gtk-common-themes prompting-client snap-store snapd-desktop-integration
 sudo snap remove bare core22
@@ -151,6 +162,18 @@ https://code.visualstudio.com/Download
 - deb
 - rpm
 - bin
+
+## **Obsidian**
+
+✅
+
+> Markdown 编辑器
+
+https://obsidian.md/download
+
+- deb
+- AppImage
+- Flatpak
 
 # 娱乐软件
 
@@ -598,6 +621,11 @@ pnpm i -g pm2
 pm2 startup # 启用自启, 执行执行这行命令后输出的命令 (?)
 ```
 
+## **Java** (Azul)
+
+✅
+
+https://www.azul.com/downloads/?os=linux&package=jre#zulu
 # 杂项
 
 ## 防 QQ 快速登录协议盗号
@@ -608,7 +636,7 @@ pm2 startup # 启用自启, 执行执行这行命令后输出的命令 (?)
 
 ```
 # /etc/hosts
-# anti qq spamming
+# anti qq fastlogin spamming
 0.0.0.0 localhost.ptlogin2.qq.com
 :: localhost.ptlogin2.qq.com
 ```
@@ -639,4 +667,17 @@ sudo swapon --show # 查看是否生效
 ```bash
 # /etc/fstab
 /swap.img none swap sw 0 0
+```
+
+### 设置 Swap 使用频率
+
+`vm.swappiness` 值在 0 - 100 之间，值越大使用越频繁
+
+```ini
+# /etc/sysctl.conf
+vm.swappiness=20
+```
+
+```bash
+sudo sysctl -p
 ```

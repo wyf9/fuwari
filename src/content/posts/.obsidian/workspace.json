@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "754df36f9e3c68aa",
+        "id": "59b6f3c9f8eef3e8",
         "type": "tabs",
         "children": [
           {
-            "id": "52750de562f69c50",
+            "id": "32ad86a346fa10f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,11 +171,12 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "52750de562f69c50",
+  "active": "32ad86a346fa10f0",
   "lastOpenFiles": [
+    "ubuntu-nosnap/index.md",
+    "linux-newinst/index.md",
     "disable-bitlocker/index.md",
     "disable-bitlocker/1-agreement.png",
-    "linux-newinst/index.md",
     "cf-cancel-sub/index.md",
     "who-cx-font/index.md",
     "who-cx-font/0-pic.png",
@@ -197,7 +198,6 @@
     "cloudflared-advanced/index.md",
     "block-itdog/index.md",
     "cloudflared-advanced",
-    "ubuntu-nosnap/index.md",
     "uv-mirror/index.md",
     "bedrock-linux-waydroid/index.md",
     "block-itdog",

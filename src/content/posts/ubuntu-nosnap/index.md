@@ -40,7 +40,7 @@ Package: thunderbird*
 Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 32767' | sudo tee /etc/apt/preferences.d/mozillateamppa
 # 4
-sudo apt install firefox thunderbird thunderbird-gnome-support -y
+sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgrades
 # 5
 sudo snap remove desktop-security-center firmware-updater gnome-42-2204 gtk-common-themes prompting-client snap-store snapd-desktop-integration
 sudo snap remove bare core22
@@ -104,8 +104,9 @@ sudo apt install firefox
 安装 thunderbird (邮件客户端):
 
 ```bash
-sudo apt install thunderbird thunderbird-gnome-support
+sudo apt install thunderbird thunderbird-gnome-support --allow-downgrades
 # thunderbird-gnome-support 是我 apt install 时看到 "建议安装" 的，就顺手加上了
+# --allow-downgrades - 允许降级 (Snap 包的版本设置得比 deb 版高)
 ```
 
 # 彻底干掉 Snap
@@ -173,4 +174,3 @@ Pin-Priority: -10
 此时执行 `sudo apt install snapd` 应该会被阻止:
 
 ![5-anti-snapd](./5-anti-snapd.png)
-
