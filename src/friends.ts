@@ -52,8 +52,8 @@ export const friends: {
 	},
 	{
 		name: "mxd's Blog",
-		desc: "每一次重启，都比上一次更稳定。",
-		avatar: "https://res.mxd.bee-zh.cn/favicon.webp",
+		desc: "Empowered by technology, inspired by life.",
+		avatar: "https://res.mxdyeah.com/favicon.webp",
 		url: "https://blog.mxdyeah.com/",
 	},
 	{
@@ -65,8 +65,7 @@ export const friends: {
 	{
 		name: "洛初 的 档案馆",
 		desc: "记录折腾过的各种东西",
-		avatar:
-			"https://weavatar.com/avatar/4857f63b6e75c96621f24af9b451144731f670b55996cc8f28ac130e1a32332d?s=160&d=mm&r=g",
+		avatar: "https://weavatar.com/avatar/4857f63b6e75c96621f24af9b451144731f670b55996cc8f28ac130e1a32332d?s=160&d=mm&r=g",
 		url: "https://blog.luochu.cc/",
 	},
 ];
