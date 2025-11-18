@@ -434,6 +434,12 @@ flatpak override com.usebottles.bottles --filesystem=~/.var/app/com.valvesoftwar
 ```
 
 > From https://docs.usebottles.com/bottles/programs
+
+### ProtonUp-Qt
+
+https://github.com/DavidoTek/ProtonUp-Qt
+
+用于为 Bottles / Steam 等工具安装 GE-Proton
 ## **MusicPlayer2**
 
 ✅
@@ -680,4 +686,16 @@ vm.swappiness=20
 
 ```bash
 sudo sysctl -p
+```
+
+## AppArmor 管理
+
+```bash
+sudo apt install apparmor-utils
+```
+
+禁用 `firefox` 的 AppArmor 配置 (默认配置会阻止 Firefox 访问一些文件):
+
+```
+sudo aa-disable firefox
 ```

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "59b6f3c9f8eef3e8",
+        "id": "5a58e50c8df757d5",
         "type": "tabs",
         "children": [
           {
-            "id": "32ad86a346fa10f0",
+            "id": "ad3ccc9b51ee8d8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,10 +171,12 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "32ad86a346fa10f0",
+  "active": "ad3ccc9b51ee8d8d",
   "lastOpenFiles": [
-    "ubuntu-nosnap/index.md",
+    "mix-lyrics/index.md",
+    "mix-lyrics/3-result.png",
     "linux-newinst/index.md",
+    "ubuntu-nosnap/index.md",
     "disable-bitlocker/index.md",
     "disable-bitlocker/1-agreement.png",
     "cf-cancel-sub/index.md",
@@ -187,7 +189,6 @@
     "who-cx-font/2-lookup.png",
     "who-cx-font/2-lookup.png",
     "who-cx-font/1-save.png",
-    "who-cx-font/Pasted image 20251110222543.png",
     "bashrc-ps1/index.md",
     "bashrc-ps1",
     "firefox-no-fingerprinting/index.md",
