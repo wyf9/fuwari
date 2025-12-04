@@ -121,7 +121,7 @@ https://linux.weixin.qq.com/
 
 ✅
 
-> ~~高德地图 (x)~~ TG 的桌面端 Fork, 增加了一些的实用功能 (部分违反 ToS)
+> ~~高德地图 (x)~~ TG 的桌面端 Fork, 增加了一些实用功能 (部分违反 ToS)
 
 https://github.com/AyuGram/AyuGramDesktop
 
@@ -453,6 +453,44 @@ https://github.com/DavidoTek/ProtonUp-Qt
 https://github.com/zhongyang219/MusicPlayer2/releases/latest
 
 - *exe*
+
+## **RustDesk**
+
+✅
+
+> 远控软件
+
+https://github.com/rustdesk/rustdesk/releases/latest
+
+- deb
+- rpm
+- aur
+- Flatpak
+- AppImage
+
+## **Syncthing**
+
+> 多设备分布式文件同步工具
+
+https://github.com/syncthing/syncthing/releases/latest
+
+- deb
+- bin
+- ...
+
+```bash
+# Add the release PGP keys:
+sudo mkdir -p /etc/apt/keyrings
+sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
+# Add the "stable-v2" channel to your APT sources:
+echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable-v2" | sudo tee /etc/apt/sources.list.d/syncthing.list
+# Update and install syncthing:
+sudo apt-get update
+sudo apt-get install syncthing
+```
+
+> From https://apt.syncthing.net/
+
 # 命令行工具
 
 ## **q**

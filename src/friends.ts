@@ -8,8 +8,8 @@ export const friends: {
 	{
 		name: "SiiWay Team Home",
 		desc: "SiiWay 团队官方主页",
-		avatar: "https://siiway.top/favicon.png",
-		url: "https://siiway.top",
+		avatar: "https://siiway.org/favicon.png",
+		url: "https://siiway.org",
 		pin: true,
 	},
 	{
