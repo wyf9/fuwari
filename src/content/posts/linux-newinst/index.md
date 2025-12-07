@@ -359,6 +359,8 @@ https://audiorelay.net/downloads
 - deb
 - bin
 
+>[!TIP]
+>`libflac8`: https://launchpad.net/ubuntu/jammy/+package/libflac8
 ## **Waylyrics**
 
 ✅
@@ -726,7 +728,7 @@ vm.swappiness=20
 sudo sysctl -p
 ```
 
-## AppArmor 管理
+<!-- ## AppArmor 管理
 
 ```bash
 sudo apt install apparmor-utils
@@ -737,3 +739,4 @@ sudo apt install apparmor-utils
 ```
 sudo aa-disable firefox
 ```
+-->

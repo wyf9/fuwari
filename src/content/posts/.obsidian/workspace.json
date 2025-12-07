@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux-newinst/index.md",
+                "file": "cloudflared-advanced/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -143,8 +143,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux-newinst/index.md",
-                "followCursor": false,
+                "file": "cloudflared-advanced/index.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -173,9 +173,10 @@
   },
   "active": "ad3ccc9b51ee8d8d",
   "lastOpenFiles": [
+    "cloudflared-advanced/13-tcp-test.png",
+    "linux-newinst/index.md",
     "mix-lyrics/index.md",
     "mix-lyrics/3-result.png",
-    "linux-newinst/index.md",
     "ubuntu-nosnap/index.md",
     "disable-bitlocker/index.md",
     "disable-bitlocker/1-agreement.png",

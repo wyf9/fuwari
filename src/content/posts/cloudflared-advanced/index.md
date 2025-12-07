@@ -114,7 +114,7 @@ Host ALIAS
 cloudflared access tcp --hostname example-tcp.wyf9.top --url localhost:9876
 ```
 
-把 `example.com` 替换为你的主机名，`localhost:9876` 替换为客户端监听的地址 (可以和服务器不同)
+把 `example-tcp.wyf9.top` 替换为你的主机名，`localhost:9876` 替换为客户端监听的地址 (可以和服务器不同)
 
 <details>
 
@@ -129,7 +129,8 @@ cloudflared access tcp --hostname example-tcp.wyf9.top --url localhost:9876
 ![](13-tcp-test.png)
 
 >`example-tcp.wyf9.top` 是真实服务，可以用来测试你的 Cloudflared 能否使用 <br/>
->你问我为什么是 HTTP? 因为 HTTP 1/2 本质上也是 TCP 服务器，以及我一时间想不到好的 TCP 服务用来演示了
+>你问我为什么是 HTTP? 因为 HTTP 1/2 本质上也是 TCP 服务器，以及我一时间想不到好的 TCP 服务用来演示了 <br/>
+>*如果服务掉了请 [联系我](https://wyf9.top/t/c)*
 
 # Ref
 
