@@ -8,16 +8,15 @@ export const friends: {
 	{
 		name: "SiiWay Team Home",
 		desc: "SiiWay 团队官方主页",
-		avatar: "https://siiway.org/favicon.png",
+		avatar: "https://icons.siiway.org/siiway/icon.svg",
 		url: "https://siiway.org",
 		pin: true,
 	},
 	{
 		name: "Shattered217のBlog",
 		desc: "一个有趣的白日梦想家",
-		avatar:
-			"https://blog.shattered.top/wp-content/uploads/2023/06/cropped-android-chrome-512x512-1.png",
-		url: "https://blog.shattered.top/",
+		avatar: "https://nvcc-v.com/wp-content/uploads/2025/12/1766747848-250x250nobk.png",
+		url: "https://nvcc-v.com/",
 	},
 	{
 		name: "小源151 的博客",

@@ -49,7 +49,7 @@ parse_git_status() {
   [[ -n $branch ]] && echo " ($branch$status)"
 }
 
-PS1='${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w \[\e[1;34m\]$(parse_git_status)\[\e[0m\]\n\$ '
+PS1='  ${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w \[\e[1;34m\]$(parse_git_status)\[\e[0m\]\n\$ '
 # endregion prompt
 EOF
 ```
@@ -119,7 +119,7 @@ parse_git_status() {
 
 # PS1 prompt with Git status indicators
 
-PS1=' ${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w \[\e[1;34m\]$(parse_git_status)\[\e[0m\]\n\$ '
+PS1='  ${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w \[\e[1;34m\]$(parse_git_status)\[\e[0m\]\n\$ '
 
 # endregion prompt
 ```
@@ -135,7 +135,7 @@ PS1=' ${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S"
 ```bash
 cat <<'EOF' >> ~/.bashrc && source ~/.bashrc
 # https://wyf9.top/p/bashrc-ps1/#无-git-版-换行-git-
-PS1='${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w\[\e[0m\]\n\$ '
+PS1='  ${debian_chroot:+($debian_chroot) }\[\e[1;32m\]$(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w\[\e[0m\]\n\$ '
 EOF
 ```
 
@@ -144,7 +144,7 @@ EOF
 ```bash
 # ~/.bashrc
 # https://wyf9.top/p/bashrc-ps1/#%E6%97%A0-git-%E7%89%88-%E6%8D%A2%E8%A1%8C--git-
-PS1='${debian_chroot:+($debian_chroot) }\[\e[1;32m\] $(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w\[\e[0m\]\n\$ '
+PS1='  ${debian_chroot:+($debian_chroot) }\[\e[1;32m\] $(date +"%Y-%m-%d %H:%M:%S") \[\e[1;33m\]\u\[\e[35m\]@\h\[\e[1;31m\] \w\[\e[0m\]\n\$ '
 ```
 
 ## 无换行版 (换行 ❌, Git ✅)

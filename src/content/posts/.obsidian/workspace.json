@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cloudflared-advanced/index.md",
+                "file": "who-cx-font/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cloudflared-advanced/index.md",
+                "file": "who-cx-font/index.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,11 +173,15 @@
   },
   "active": "ad3ccc9b51ee8d8d",
   "lastOpenFiles": [
+    "nologin-user/index.md",
+    "ubuntu-nosnap/index.md",
+    "bashrc-ps1/index.md",
+    "cloudflared-advanced/index.md",
+    "nologin-user",
     "cloudflared-advanced/13-tcp-test.png",
     "linux-newinst/index.md",
     "mix-lyrics/index.md",
     "mix-lyrics/3-result.png",
-    "ubuntu-nosnap/index.md",
     "disable-bitlocker/index.md",
     "disable-bitlocker/1-agreement.png",
     "cf-cancel-sub/index.md",
@@ -189,15 +193,12 @@
     "who-cx-font/3-dns.png",
     "who-cx-font/2-lookup.png",
     "who-cx-font/2-lookup.png",
-    "who-cx-font/1-save.png",
-    "bashrc-ps1/index.md",
     "bashrc-ps1",
     "firefox-no-fingerprinting/index.md",
     "firefox-no-fingerprinting",
     "firefox-disable-fingerprinting/index.md",
     "firefox-disable-fingerprinting",
     "cf-snippet-getip/index.md",
-    "cloudflared-advanced/index.md",
     "block-itdog/index.md",
     "cloudflared-advanced",
     "uv-mirror/index.md",

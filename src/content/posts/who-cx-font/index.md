@@ -43,8 +43,11 @@ table,
 #search_input,
 #history-input,
 #price_box,
+#price_load,
 #cost,
 option,
+div,
+p,
 body {
   font-family: 'xiaolai', sans-serif !important;
   font-weight: 400;

@@ -174,3 +174,13 @@ Pin-Priority: -10
 此时执行 `sudo apt install snapd` 应该会被阻止:
 
 ![5-anti-snapd](./5-anti-snapd.png)
+
+# Snap 软件替代
+
+## `firmware-updater`
+
+对应的 deb package 名: `gnome-firmware`
+
+```bash
+sudo apt install gnome-firmware -y
+```
