@@ -74,4 +74,10 @@ export const friends: {
 		avatar: "https://nicrozoft.github.io/img/NZ.ico",
 		url: "https://nicrozoft.github.io/",
 	},
+	{
+		name: "Murasame",
+		desc: "我已经下了决心，要与深爱的少女一起在这片土地生活下去。我对此无比自豪。",
+		avatar: "https://blog.shirayukinoa.top/_astro/Murasame.0zIy958b_ZajvDy.webp",
+		url: "https://blog.shirayukinoa.top/"
+	},
 ];
