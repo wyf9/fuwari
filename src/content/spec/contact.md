@@ -11,22 +11,22 @@ lang: ''
 
 # Contact
 
-GitHub: [`wyf9`](https://wyf9.top/t/gh)
+GitHub: [`wyf9`](https://wyf9.top/gh)
 
-Telegram: [`wyf9official`](https://wyf9.top/t/tg)
+Telegram: [`wyf9real`](https://wyf9.top/tg)
 
-Bilibili: `wyf9_` ([`591766561`](https://wyf9.top/t/b))
+Bilibili: `wyf9_` ([`591766561`](https://wyf9.top/b))
 
-X *(Twitter)*: [`wyf9_`](https://wyf9.top/t/x)
+X *(Twitter)*: [`wyf9_`](https://wyf9.top/x)
 
-Twitch: [`wyf9`](https://wyf9.top/t/t)
+Twitch: [`wyf9`](https://wyf9.top/t)
 
-Email: [`wyf9[@]wyf9.top`](https://wyf9.top/t/e)
+Email: [`wyf9[@]wyf9.top`](https://wyf9.top/e)
 
 ## Discord
 
-用户名: `wyf9` ([`992995849946804304`](https://wyf9.top/t/dc))
+用户名: `wyf9` ([`992995849946804304`](https://wyf9.top/dc))
 
-服务器: [`wyf9's Server`](https://wyf9.top/t/dcs)
+服务器: [`wyf9's Server`](https://wyf9.top/dcs)
 
 <iframe src="https://discord.com/widget?id=1061629481267245086&theme=dark" width="800" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>

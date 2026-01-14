@@ -9,14 +9,35 @@
 /posts/contact /contact
 
 # Contact
+/c /contact
 /t/c /contact
+/af https://github.com/wyf9/fuwari/blob/main/CONTRIBUTING.md
+/addfriend https://github.com/wyf9/fuwari/blob/main/CONTRIBUTING.md
+/t/af https://github.com/wyf9/fuwari/blob/main/CONTRIBUTING.md
+/gh https://github.com/wyf9
+/github https://github.com/wyf9
 /t/gh https://github.com/wyf9
-/t/tg https://t.me/wyf9official
+/tg https://t.me/realwyf9
+/telegram https://t.me/realwyf9
+/t/tg https://t.me/realwyf9
+/b https://space.bilibili.com/591766561
+/bilibili https://space.bilibili.com/591766561
 /t/b https://space.bilibili.com/591766561
-/t/x https://x.com/wyf9
-/t/e https://siiway.top/t/m/wyf9/wyf9.top
+/x https://x.com/wyf9_
+/twitter https://x.com/wyf9_
+/t/x https://x.com/wyf9_
+/e https://siiway.org/t/m/wyf9/wyf9.top
+/mail https://siiway.org/t/m/wyf9/wyf9.top
+/email https://siiway.org/t/m/wyf9/wyf9.top
+/t/e https://siiway.org/t/m/wyf9/wyf9.top
+/dc https://discord.com/users/992995849946804304
+/discord https://discord.com/users/992995849946804304
 /t/dc https://discord.com/users/992995849946804304
+/dcs https://discord.gg/mdGamAxC7U
+/discordserver https://discord.gg/mdGamAxC7U
 /t/dcs https://discord.gg/mdGamAxC7U
+/t https://twitch.tv/wyf9_
+/twitch https://twitch.tv/wyf9_
 /t/t https://twitch.tv/wyf9_
 
 # Sitemap
@@ -24,6 +45,7 @@
 
 # Keys
 /.gpg https://github.com/wyf9.gpg
+/.pgp https://github.com/wyf9.gpg
 /.keys https://github.com/wyf9.keys
 /.ssh https://github.com/wyf9.keys
 /.pub https://github.com/wyf9.keys

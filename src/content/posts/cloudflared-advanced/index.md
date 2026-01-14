@@ -130,7 +130,7 @@ cloudflared access tcp --hostname example-tcp.wyf9.top --url localhost:9876
 
 >`example-tcp.wyf9.top` 是真实服务，可以用来测试你的 Cloudflared 能否使用 <br/>
 >你问我为什么是 HTTP? 因为 HTTP 1/2 本质上也是 TCP 服务器，以及我一时间想不到好的 TCP 服务用来演示了 <br/>
->*如果服务掉了请 [联系我](https://wyf9.top/t/c)*
+>*如果服务掉了请 [联系我](https://wyf9.top/c)*
 
 # Ref
 

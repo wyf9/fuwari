@@ -17,7 +17,7 @@ lang: ""
 
 其中很多软件在 Windows 也可用
 
-> 如 失效 / 建议增加 / 建议修改 直接评论或 [联系我](https://wyf9.top/t/c)
+> 如 失效 / 建议增加 / 建议修改 直接评论或 [联系我](https://wyf9.top/c)
 
 ## AppImage 前置
 

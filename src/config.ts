@@ -95,17 +95,17 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://wyf9.top/t/gh",
+			url: "https://wyf9.top/gh",
 		},
 		{
 			name: "Telegram",
 			icon: "fa6-brands:telegram",
-			url: "https://wyf9.top/t/tg",
+			url: "https://wyf9.top/tg",
 		},
 		{
 			name: "X",
 			icon: "fa6-brands:x-twitter",
-			url: "https://wyf9.top/t/x",
+			url: "https://wyf9.top/x",
 		},
 		{
 			name: "Discord",
@@ -115,17 +115,17 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Twitch",
 			icon: "fa6-brands:twitch",
-			url: "https://wyf9.top/t/t",
+			url: "https://wyf9.top/t",
 		},
 		{
 			name: "Bilibili",
 			icon: "fa6-brands:bilibili",
-			url: "https://wyf9.top/t/b",
+			url: "https://wyf9.top/b",
 		},
 		{
 			name: "Email",
 			icon: "fa6-solid:envelope",
-			url: "https://wyf9.top/t/e",
+			url: "https://wyf9.top/e",
 		},
 	],
 };
