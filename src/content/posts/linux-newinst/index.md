@@ -582,6 +582,31 @@ echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudf
 sudo apt-get update && sudo apt-get install cloudflared
 ```
 
+## 提示 `failed to sufficiently increase receive buffer size`
+
+```ini
+# /etc/sysctl.conf
+net.core.rmem_max=7500000
+net.core.wmem_max=7500000
+```
+
+```bash
+sudo sysctl -p
+```
+
+> https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes
+
+## 提示 `Group ID X is not between ping group X to X`
+
+```ini
+# /etc/sysctl.conf
+net.ipv4.ping_group_range=0 114514
+```
+
+```bash
+sudo sysctl -p
+```
+
 ## **gost**
 
 ✅
