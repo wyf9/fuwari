@@ -26,7 +26,7 @@ lang: ""
 
 ```bash
 # Ubuntu >= 24.04
-sudo add-apt-repository universe
+sudo add-apt-repository universe # 可能不需要 (系统默认已添加 universe 源)
 sudo apt install libfuse2t64
 ```
 
@@ -40,36 +40,19 @@ sudo apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
-**其他版本说明**: 
+**其他版本说明**: https://flatpak.org/setup/
+
 # Ubuntu 特供
 
-## **Firefox & Thunderbird PPA**
+## **去 Snap**
 
 ✅
 
 ```bash
-# 1. 删除 Snap 版 Firefox
-sudo snap remove firefox --purge
-# 2. 添加 Mozilla PPA
-sudo add-apt-repository ppa:mozillateam/ppa -y
-# 3. 固定 Firefox & Thunderbird 版本
-echo 'Package: firefox*
-Pin: release o=LP-PPA-mozillateam
-Pin-Priority: 32767
-
-Package: thunderbird*
-Pin: release o=LP-PPA-mozillateam
-Pin-Priority: 32767' | sudo tee /etc/apt/preferences.d/mozillateamppa
-# 4. 安装 PPA 版 Firefox & Thunderbird
-sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgrades
-# 5. 删除所有 Snap 包
-sudo snap remove desktop-security-center firmware-updater gnome-42-2204 gtk-common-themes prompting-client snap-store snapd-desktop-integration
-sudo snap remove bare core22
-sudo snap remove snapd
-# 6. 删除 Snapd
+# 1. 删除 Snapd (以及所有 snap 包)
 sudo apt purge snapd -y
 sudo apt autoremove -y
-# 7. 防止 Snapd 被重新安装
+# 2. 防止 Snapd 被重新安装
 echo 'Package: snapd
 Pin: release a=*
 Pin-Priority: -10
@@ -81,6 +64,25 @@ Pin-Priority: -10' | sudo tee /etc/apt/preferences.d/nosnap
 
 > [!TIP]
 > 细节 / 分步教程见此文: [Ubuntu without Snap](../ubuntu-nosnap)
+
+## **Firefox & Thunderbird PPA**
+
+✅
+
+```bash
+# 1. 添加 Mozilla PPA
+sudo add-apt-repository ppa:mozillateam/ppa -y
+# 2. 固定 Firefox & Thunderbird 版本
+echo 'Package: firefox*
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 32767
+
+Package: thunderbird*
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 32767' | sudo tee /etc/apt/preferences.d/mozillateamppa
+# 3. 安装 PPA 版 Firefox & Thunderbird
+sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgrades
+```
 
 ## Unsnap
 
@@ -284,8 +286,6 @@ https://github.com/MetaCubeX/mihomo/releases/latest
 
 ### 解决 `Start TUN listening error: configure tun interface: operation not permitted`
 
-✅
-
 ```bash
 sudo setcap cap_net_bind_service,cap_net_admin=+ep $(which mihomo)
 ```
@@ -344,7 +344,7 @@ https://github.com/localsend/localsend/releases/latest
 
 > 一个跨平台的 截图 + 贴图 工具
 
-https://dl.snipaste.com/linux-cn
+https://dl.snipaste.com/linux
 
 - AppImage
 
@@ -554,6 +554,19 @@ gh extension install emmanuel-ferdman/gh-gonest
 # 运行: gh gonest
 ```
 
+### **gh-p**
+
+✅
+
+> 自制插件，用于快速 Clone Pull Request 的更改到本地，方便进行进一步修改 & 直接推送到 PR 作者分支
+
+https://github.com/wyf9/gh-p
+
+```bash
+gh extension install wyf9/gh-p
+# 运行: gh p
+```
+
 ## **Cloudflared**
 
 ✅
@@ -582,7 +595,7 @@ echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudf
 sudo apt-get update && sudo apt-get install cloudflared
 ```
 
-## 提示 `failed to sufficiently increase receive buffer size`
+### 提示 `failed to sufficiently increase receive buffer size`
 
 ```ini
 # /etc/sysctl.conf
@@ -596,7 +609,7 @@ sudo sysctl -p
 
 > https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes
 
-## 提示 `Group ID X is not between ping group X to X`
+### 提示 `Group ID X is not between ping group X to X`
 
 ```ini
 # /etc/sysctl.conf
@@ -666,7 +679,7 @@ curl https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 使用 nvm 安装:
 
 ```bash
-nvm install 24
+nvm install 25
 ```
 
 安装 pnpm:

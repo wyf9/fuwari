@@ -13,7 +13,7 @@ const nonPinnedFriends = friends.filter((friend) => friend.pin !== true);
 
 // 对非置顶友链进行随机排序
 const shuffledNonPinnedFriends = nonPinnedFriends.sort(
-  () => Math.random() - 0.5
+  () => Math.random() - 0.5,
 );
 
 // 合并置顶和随机排序的非置顶友链
@@ -42,20 +42,20 @@ const sortedFriends = [...pinnedFriends, ...shuffledNonPinnedFriends];
               href={friend.url}
               target="_blank"
               rel="noopener noreferrer"
-              class="flex items-center p-4 border rounded-[var(--radius-large)] hover:shadow-lg transition-shadow bg-white dark:bg-gray-800 min-w-0"
+              class="flex items-center p-4 border border-black/5 dark:border-white/10 rounded-[var(--radius-large)] hover:shadow-lg transition-all bg-white dark:bg-neutral-900/30 min-w-0 hover:-translate-y-1"
             >
               {friend.avatar && (
                 <img
                   src={friend.avatar}
                   alt={`${friend.name} avatar`}
-                  class="w-12 h-12 rounded-full mr-4 object-cover"
+                  class="w-12 h-12 rounded-full mr-4 object-cover shadow-sm"
                 />
               )}
               <div class="flex-1">
-                <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-100 !transition-colors">
+                <h2 class="text-lg font-semibold text-gray-900 dark:text-zinc-100 !transition-colors">
                   {friend.name}
                 </h2>
-                <p class="text-sm text-gray-600 dark:text-white !transition-colors break-words line-clamp-3">
+                <p class="text-sm text-gray-600 dark:text-zinc-400 !transition-colors break-words line-clamp-2">
                   {friend.desc || "A cool blog to explore!"}
                 </p>
               </div>

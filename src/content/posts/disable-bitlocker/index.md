@@ -2,7 +2,7 @@
 title: Windows 禁用 Bitlocker
 published: 2025-11-12
 description: Bitlocker 显示 "正在等待激活" 怎么办? 一行命令轻松解决!
-image: ./0-pic.png
+# image: ./0-pic.png
 tags:
   - Windows
   - 水

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "who-cx-font/index.md",
+                "file": "linux-newinst/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "who-cx-font/index.md",
+                "file": "linux-newinst/index.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "Outline of index"
             }
           }
         ],
@@ -161,18 +161,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
   "active": "ad3ccc9b51ee8d8d",
   "lastOpenFiles": [
+    "who-cx-font/index.md",
     "nologin-user/index.md",
     "ubuntu-nosnap/index.md",
     "bashrc-ps1/index.md",
@@ -185,7 +186,6 @@
     "disable-bitlocker/index.md",
     "disable-bitlocker/1-agreement.png",
     "cf-cancel-sub/index.md",
-    "who-cx-font/index.md",
     "who-cx-font/0-pic.png",
     "who-cx-font/0-pic.png",
     "who-cx-font/4-history.png",

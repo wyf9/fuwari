@@ -20,7 +20,7 @@ lang: ''
 2. 添加 Mozilla PPA
 3. 固定 Firefox & Thunderbird 版本
 4. 安装 PPA 版 Firefox & Thunderbird
-5. 删除所有 Snap 包
+5. ~~删除所有 Snap 包~~ *不需要，删除 snapd 时会自动处理*
 6. 删除 Snapd
 7. 防止 Snapd 被重新安装
 
@@ -41,10 +41,6 @@ Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 32767' | sudo tee /etc/apt/preferences.d/mozillateamppa
 # 4
 sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgrades
-# 5
-sudo snap remove desktop-security-center firmware-updater gnome-42-2204 gtk-common-themes prompting-client snap-store snapd-desktop-integration
-sudo snap remove bare core22
-sudo snap remove snapd
 # 6
 sudo apt purge snapd -y
 sudo apt autoremove -y
@@ -109,7 +105,11 @@ sudo apt install thunderbird thunderbird-gnome-support --allow-downgrades
 # --allow-downgrades - 允许降级 (Snap 包的版本设置得比 deb 版高)
 ```
 
-# 彻底干掉 Snap
+# 干掉 Snap
+
+<details>
+
+<summary>此中内容不需要执行，仅留档</summary>
 
 在卸载 Snap 之前，我们需要先卸载所有基于 Snap 的包
 
@@ -143,7 +143,11 @@ sudo snap remove bare core22 # base
 sudo snap remove snapd # snapd
 ```
 
-接下来卸载 Snap 本体:
+接下来
+
+</details>
+
+卸载 Snap 本体:
 
 ```
 sudo apt purge snapd
@@ -175,7 +179,7 @@ Pin-Priority: -10
 
 ![5-anti-snapd](./5-anti-snapd.png)
 
-# Snap 软件替代
+<!-- # Snap 软件替代
 
 ## `firmware-updater`
 
@@ -183,4 +187,4 @@ Pin-Priority: -10
 
 ```bash
 sudo apt install gnome-firmware -y
-```
+``` -->
