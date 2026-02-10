@@ -80,4 +80,10 @@ export const friends: {
 		avatar: "https://blog.shirayukinoa.top/_astro/Murasame.0zIy958b_ZajvDy.webp",
 		url: "https://blog.shirayukinoa.top/"
 	},
+	{
+		name: "Ad_closeNN's blog",
+		desc: "Ad_closeNN 的小站，时不时会刷新一些野生东西",
+		avatar: "https://adclosenn.top/assets/avatar.jpg",
+		url: "https://adclosenn.top/"
+	}
 ];
