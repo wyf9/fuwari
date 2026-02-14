@@ -90,6 +90,16 @@ sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgr
 
 https://github.com/popey/unsnap
 
+## **非自由软件包扩展集合**
+
+✅
+
+> 包含微软字体以及 HEVC 视频编码扩展的支持
+
+```bash
+sudo apt install ubuntu-restricted-extras
+```
+
 # 社交软件
 
 ## **QQ**
