@@ -65,7 +65,7 @@ Pin-Priority: -10' | sudo tee /etc/apt/preferences.d/nosnap
 > [!TIP]
 > 细节 / 分步教程见此文: [Ubuntu without Snap](../ubuntu-nosnap)
 
-## **Firefox & Thunderbird PPA**
+## **Firefox & Thunderbird PPA** (Ubuntu 20+)
 
 ✅
 
@@ -81,7 +81,7 @@ Package: thunderbird*
 Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 32767' | sudo tee /etc/apt/preferences.d/mozillateamppa
 # 3. 安装 PPA 版 Firefox & Thunderbird
-sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgrades
+sudo apt install firefox thunderbird thunderbird-gnome-support -y
 ```
 
 ## Unsnap
@@ -89,6 +89,16 @@ sudo apt install firefox thunderbird thunderbird-gnome-support -y --allow-downgr
 > 快速将 *(部分)* Flatpak 包迁移到 Snap 包
 
 https://github.com/popey/unsnap
+
+## **非自由软件包扩展集合**
+
+✅
+
+> 包含 **微软字体** 以及 **HEVC 视频编码** 扩展的支持
+
+```bash
+sudo apt install ubuntu-restricted-extras
+```
 
 # 社交软件
 
@@ -648,6 +658,22 @@ sudo apt install thefuck
 # ~/.bashrc
 eval $(thefuck --alias)
 ```
+
+## **Caddy**
+
+✅
+
+> *~~为什么一个 web server 会出现在这里？我不知道（~~*
+
+```bash
+sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https curl
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+sudo apt update
+sudo apt install caddy
+```
+
+> Other distros: https://caddyserver.com.cn/docs/install
 # 编程语言
 
 ## **Python** (uv)
@@ -694,6 +720,12 @@ npm i -g pnpm
 npm config set registry https://registry.npmmirror.com
 ```
 
+### 提示 `node: error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory`
+
+```bash
+sudo apt install libatomic1 -y
+```
+
 ### **PM2**
 
 ✅
@@ -712,7 +744,7 @@ pm2 startup # 启用自启, 执行执行这行命令后输出的命令 (?)
 https://www.azul.com/downloads/?os=linux&package=jre#zulu
 # 杂项
 
-## 防 QQ 快速登录协议盗号
+<!-- ## 防 QQ 快速登录协议盗号
 
 ✅
 
@@ -723,7 +755,7 @@ https://www.azul.com/downloads/?os=linux&package=jre#zulu
 # anti qq fastlogin spamming
 0.0.0.0 localhost.ptlogin2.qq.com
 :: localhost.ptlogin2.qq.com
-```
+``` -->
 
 ## 调整 Swap 文件大小
 

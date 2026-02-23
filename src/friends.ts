@@ -44,12 +44,6 @@ export const friends: {
 		url: "https://blog.2b2x.cn",
 	},
 	{
-		name: "Ad_closeNN 的小站",
-		desc: "永远相信美好的事情即将发生",
-		avatar: "https://adclosenn.top/assets/avatar.jpg",
-		url: "https://adclosenn.top",
-	},
-	{
 		name: "mxd's Blog",
 		desc: "Empowered by technology, inspired by life.",
 		avatar: "https://res.mxdyeah.com/favicon.webp",
@@ -71,7 +65,7 @@ export const friends: {
 	{
 		name: "Nicrozoft",
 		desc: "Nicrozoft 官方网站",
-		avatar: "https://nicrozoft.github.io/img/NZ.ico",
+		avatar: "https://nz.krnl64.win/img/NZ.ico",
 		url: "https://nicrozoft.github.io/",
 	},
 	{
@@ -85,5 +79,12 @@ export const friends: {
 		desc: "Ad_closeNN 的小站，时不时会刷新一些野生东西",
 		avatar: "https://adclosenn.top/assets/avatar.jpg",
 		url: "https://adclosenn.top/"
-	}
+	},
+        {
+                name: "Rockaz's Wonderland",
+                desc: "add-qwq的小破站",
+                avatar: "https://www.rockaz.top/favicon.png",
+                url: "https://www.rockaz.top/"
+        }
+
 ];
