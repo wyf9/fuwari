@@ -480,6 +480,16 @@ https://github.com/rustdesk/rustdesk/releases/latest
 - Flatpak
 - AppImage
 
+## **Remmina**
+
+✅
+
+> 远程桌面工具
+
+```bash
+sudo apt install remmina remmina-plugin-rdp remmina-plugin-vnc
+```
+
 ## **Syncthing**
 
 > 多设备分布式文件同步工具

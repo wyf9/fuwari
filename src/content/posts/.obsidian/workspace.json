@@ -21,6 +21,18 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "ce22767ea3b33817",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ]
       }
@@ -62,7 +74,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -173,8 +185,9 @@
   },
   "active": "ad3ccc9b51ee8d8d",
   "lastOpenFiles": [
-    "ubuntu-nosnap/index.md",
+    "uv-mirror/index.md",
     "linux-newinst/index.md",
+    "ubuntu-nosnap/index.md",
     "who-cx-font/index.md",
     "nologin-user/index.md",
     "bashrc-ps1/index.md",
@@ -201,7 +214,6 @@
     "cf-snippet-getip/index.md",
     "block-itdog/index.md",
     "cloudflared-advanced",
-    "uv-mirror/index.md",
     "bedrock-linux-waydroid/index.md",
     "block-itdog",
     "linux-obs-proxy/index.md",

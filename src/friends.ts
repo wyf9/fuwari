@@ -31,6 +31,12 @@ export const friends: {
 		avatar: "https://cdn.mfawa.top/image/logo.svg",
 		url: "https://blog.imbee.top/",
 	},
+        {
+		name: "xhc861's Blog",
+		desc: "博客，远不止于博客~",
+		avatar: "https://xhc861.top/ava.jpg",
+		url: "https://xhc861.top/",
+	},
 	{
 		name: "fishcpy的小破站",
 		desc: "非淡泊无以明志，非宁静无以致远",
