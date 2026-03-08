@@ -21,6 +21,11 @@ lang: ""
 
 ## AppImage 前置
 
+```bash
+# Quick Script | Help: https://sh.wss.moe/fuse.help
+curl https://sh.wss.moe/fuse | sudo bash
+```
+
 > [!IMPORTANT]
 > AppImage 需要 FUSE 来运行，安装:
 
@@ -35,6 +40,11 @@ sudo apt install libfuse2t64
 ## Flatpak 前置
 
 ```bash
+# Quick Script | Help: https://sh.wss.moe/flatpak.help
+curl https://sh.wss.moe/flatpak | sudo bash
+```
+
+```bash
 sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -45,6 +55,11 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 # Ubuntu 特供
 
 ## **去 Snap**
+
+```bash
+# Quick Script | Help: https://sh.wss.moe/nosnap.help
+curl https://sh.wss.moe/nosnap | sudo bash
+```
 
 ✅
 
@@ -66,6 +81,12 @@ Pin-Priority: -10' | sudo tee /etc/apt/preferences.d/nosnap
 > 细节 / 分步教程见此文: [Ubuntu without Snap](../ubuntu-nosnap)
 
 ## **Firefox & Thunderbird PPA** (Ubuntu 20+)
+
+```bash
+# Quick Script | Help: https://sh.wss.moe/firefox.help / https://sh.wss.moe/thunderbird.help
+curl https://sh.wss.moe/firefox | bash # [--no-gnome]
+curl https://sh.wss.moe/thunderbird | bash # [--no-gnome]
+```
 
 ✅
 
@@ -373,6 +394,11 @@ https://audiorelay.net/downloads
 >`libflac8`: https://launchpad.net/ubuntu/jammy/+package/libflac8
 ## **Waylyrics**
 
+```bash
+# Quick Script | Help: https://sh.wss.moe/waylyrics.help
+curl https://sh.wss.moe/waylyrics | sudo bash
+```
+
 ✅
 
 >一个使用 Rust 编写的 Wayland 桌面歌词工具
@@ -426,6 +452,11 @@ sudo update-desktop-database
 >From https://github.com/waylyrics/waylyrics/blob/master/doc/BUILD_GUIDE_UBUNTU.zh_cn.md
 
 ## **Bottles**
+
+```bash
+# Quick Script | Help: https://sh.wss.moe/bottles.help
+curl https://sh.wss.moe/bottles | sudo bash
+```
 
 ✅
 
@@ -491,6 +522,11 @@ sudo apt install remmina remmina-plugin-rdp remmina-plugin-vnc
 ```
 
 ## **Syncthing**
+
+```bash
+# Quick Script | Help: https://sh.wss.moe/syncthing.help
+curl https://sh.wss.moe/syncthing | sudo bash
+```
 
 > 多设备分布式文件同步工具
 
@@ -589,6 +625,11 @@ gh extension install wyf9/gh-p
 
 ## **Cloudflared**
 
+```bash
+# Quick Script | Help: https://sh.wss.moe/cfd.help
+curl https://sh.wss.moe/cfd | sudo bash # [--skip-fix]
+```
+
 ✅
 
 > Cloudflare Tunnel 服务端 & 客户端
@@ -652,6 +693,11 @@ https://github.com/go-gost/gost/releases/latest
 
 ## **Thefxxk**
 
+```bash
+# Quick Script | Help: https://sh.wss.moe/thefuck.help
+curl https://sh.wss.moe/thefuck | bash
+```
+
 ✅
 
 >一个在你打错命令暴怒时可以输入 `f**k` 修正的工具
@@ -671,6 +717,11 @@ eval $(thefuck --alias)
 
 ## **Caddy**
 
+```bash
+# Quick Script | Help: https://sh.wss.moe/caddy.help
+curl https://sh.wss.moe/caddy | bash
+```
+
 ✅
 
 > *~~为什么一个 web server 会出现在这里？我不知道（~~*
@@ -688,6 +739,11 @@ sudo apt install caddy
 
 ## **Python** (uv)
 
+```bash
+# Quick Script | Help: https://sh.wss.moe/uv.help
+curl https://sh.wss.moe/uv | bash # [version: none]
+```
+
 ✅
 
 https://docs.astral.sh/uv/getting-started/installation/
@@ -703,6 +759,11 @@ uv python install 3.13
 ```
 
 ## **NodeJS** (nvm)
+
+```bash
+# Quick Script | Help: https://sh.wss.moe/node.help
+curl https://sh.wss.moe/node | bash # [version: 25]
+```
 
 ✅
 
@@ -738,6 +799,11 @@ sudo apt install libatomic1 -y
 
 ### **PM2**
 
+```bash
+# Quick Script | Help: https://sh.wss.moe/pm2.help
+curl https://sh.wss.moe/pm2 | bash
+```
+
 ✅
 
 > 进程管理器
@@ -767,7 +833,12 @@ https://www.azul.com/downloads/?os=linux&package=jre#zulu
 :: localhost.ptlogin2.qq.com
 ``` -->
 
-## 调整 Swap 文件大小
+## **调整 Swap 文件大小**
+
+```bash
+# Quick Script | Help: https://sh.wss.moe/swap.help
+curl https://sh.wss.moe/swap | sudo bash # [size: 4G] [path: /swapfile] [swappiness: 20]
+```
 
 ✅
 
@@ -808,7 +879,28 @@ vm.swappiness=20
 sudo sysctl -p
 ```
 
-<!-- ## AppArmor 管理
+### 开启 BBR
+
+✅
+
+```bash
+# Quick Script | Help: https://sh.wss.moe/bbr.help
+curl https://sh.wss.moe/bbr | sudo bash # [--bbr-only]
+```
+
+> 更强的 TCP 拥塞控制算法，以及一些网络层面的调优设置 *(script only)*
+
+```ini
+# /etc/sysctl.conf
+net.core.default_qdisc=fq
+net.ipv4.tcp_congestion_control=bbr
+```
+
+```bash
+sudo sysctl -p
+```
+
+<!-- ### AppArmor 管理
 
 ```bash
 sudo apt install apparmor-utils
