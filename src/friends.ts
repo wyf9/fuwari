@@ -86,11 +86,16 @@ export const friends: {
 		avatar: "https://adclosenn.top/assets/avatar.jpg",
 		url: "https://adclosenn.top/"
 	},
-        {
-                name: "Rockaz's Wonderland",
-                desc: "add-qwq的小破站",
-                avatar: "https://www.rockaz.top/favicon.png",
-                url: "https://www.rockaz.top/"
-        }
-
+    {
+        name: "Rockaz's Wonderland",
+        desc: "add-qwq的小破站",
+        avatar: "https://www.rockaz.top/favicon.png",
+        url: "https://www.rockaz.top/"
+    },
+	{
+		name: "Esyka's Blog",
+		desc: "海阔凭鱼跃，天高任鸟飞",
+		avatar: "https://www.esyka.top/images/logo.png",
+		url: "https://www.esyka.top",
+	},
 ];
