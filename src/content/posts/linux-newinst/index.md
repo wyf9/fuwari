@@ -549,6 +549,48 @@ sudo apt-get install syncthing
 
 > From https://apt.syncthing.net/
 
+# GNOME 扩展
+
+首先安装 `gnome-extensions`:
+
+```bash
+sudo apt install gnome-shell-extensions gnome-shell-extensions-common
+```
+
+*安装部分旧扩展可能需要:*
+
+```bash
+gsettings set org.gnome.shell disable-extension-version-validation true
+```
+## **Astra Monitor**
+
+✅
+
+> 托盘性能监视器
+
+https://extensions.gnome.org/extension/6682/astra-monitor/
+
+*可能*需要安装的依赖 (AMD gpu):
+
+- nethogs
+- iotop
+- https://github.com/Umio-Yasuno/amdgpu_top
+
+## **Blur my Shell**
+
+✅
+
+> 模糊 / 透明化 托盘 / 锁屏 / 窗口 等
+
+https://extensions.gnome.org/extension/3193/blur-my-shell/
+
+## **Random Wallpaper**
+
+✅
+
+> 随机轮换背景，支持设置 本地 / URL 源
+
+https://extensions.gnome.org/extension/1040/random-wallpaper/
 # 命令行工具
 
 ## **q**
