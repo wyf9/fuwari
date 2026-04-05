@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux-newinst/index.md",
+                "file": "yunhu-linux-fix/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux-newinst/index.md",
+                "file": "yunhu-linux-fix/index.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,10 +171,19 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "ad3ccc9b51ee8d8d",
+  "active": "a5814d42ca5a352f",
   "lastOpenFiles": [
-    "uv-mirror/index.md",
+    "yunhu-linux-fix/5-launch-cmd.png",
+    "yunhu-linux-fix/4-ulauncher-fail.png",
+    "yunhu-linux-fix/3-launch-ulauncher.png",
+    "yunhu-linux-fix/index.md",
+    "yunhu-linux-fix/2-launch-sys.png",
+    "yunhu-linux-fix/1-dl.png",
     "linux-newinst/index.md",
+    "yunhu-linux-fix",
+    "--help/index.md",
+    "--help",
+    "uv-mirror/index.md",
     "ubuntu-nosnap/index.md",
     "who-cx-font/index.md",
     "nologin-user/index.md",
@@ -190,10 +199,6 @@
     "who-cx-font/0-pic.png",
     "who-cx-font/0-pic.png",
     "who-cx-font/4-history.png",
-    "who-cx-font/4-history.png",
-    "who-cx-font/3-dns.png",
-    "who-cx-font/2-lookup.png",
-    "who-cx-font/2-lookup.png",
     "bashrc-ps1",
     "firefox-no-fingerprinting/index.md",
     "firefox-no-fingerprinting",
@@ -210,7 +215,6 @@
     "spaceship-cf-dnssec",
     "linux-newinst",
     "mc-bedrock-on-linux/未命名.md",
-    "bedrock-linux-waydroid",
     "boot-repair/index.md",
     "未命名.md"
   ]
