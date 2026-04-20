@@ -98,4 +98,10 @@ export const friends: {
 		avatar: "https://www.esyka.top/images/logo.png",
 		url: "https://www.esyka.top",
 	},
+	{
+		name: "RhenCloud's Blog",
+		desc: "趁世界还未重启之前 约一次爱恋",
+		avatar: "https://rhen.cloud/avatar.webp",
+		url: "https://blog.rhen.cloud",
+	},
 ];
