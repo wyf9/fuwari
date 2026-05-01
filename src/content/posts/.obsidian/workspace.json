@@ -185,12 +185,13 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "a5814d42ca5a352f",
+  "active": "f06e854363bca85f",
   "lastOpenFiles": [
+    "virtual-sink/未命名.md",
+    "virtual-sink/index.md",
     "virtual-sink/0-pic.png",
     "virtual-sink/2-created.png",
     "virtual-sink/1-check.png",
-    "virtual-sink/index.md",
     "virtual-sink",
     "未命名.md",
     "未命名",
@@ -215,7 +216,6 @@
     "mix-lyrics/index.md",
     "mix-lyrics/3-result.png",
     "disable-bitlocker/index.md",
-    "disable-bitlocker/1-agreement.png",
     "cf-cancel-sub/index.md",
     "bashrc-ps1",
     "firefox-no-fingerprinting/index.md",

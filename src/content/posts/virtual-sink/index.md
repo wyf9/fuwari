@@ -17,7 +17,7 @@ lang: ""
 
 简单来说，PipeWire 是一个**低延迟的 Linux 多媒体处理引擎**，可以让你的设备处理播放音视频更快，更安全，而且对沙箱 / Wayland / 蓝牙耳机等支持友好（*better than PulseAudio*，也是 Ubuntu 22.04+ 的默认之选）
 
-本文所述的功能需要它，因此先检测是否已经安装：
+**本文所述的功能需要它**，因此先检测是否已经安装：
 
 ```bash
 pactl info | grep -i "pipewire" && echo "installed" || echo "not installed"
@@ -27,9 +27,9 @@ pactl info | grep -i "pipewire" && echo "installed" || echo "not installed"
 
 ![](1-check.png)
 
-如果输出 `not installed`，你需要安装并启用 PipeWire，见下面的文档 / 教程（这里不多赘述）：
+如果输出 `not installed`，你需要**安装并启用** PipeWire，见下面的文档 / 教程（这里不多赘述）：
 
-- [PipeWire](https://www.pipewire.org/) - (这是官网)
+- [PipeWire](https://www.pipewire.org/) **(这是官网)**
 - [Ubuntu 20.04 切换 pipewire 作为音频连接 - 知乎](https://zhuanlan.zhihu.com/p/679142993)
 - [PipeWire - Arch Linux 中文维基](https://wiki.archlinuxcn.org/wiki/PipeWire)
 - [zh\_CN/PipeWire - Debian Wiki](https://wiki.debian.org/zh_CN/PipeWire)
@@ -66,11 +66,11 @@ pactl load-module module-null-sink \
 > [!TIP]
 > 将 `SinkName` 替换为**你想要的设备名称**.
 
-哦对了，这不是永久更改，重启恢复 *（但你可以写个 user scope 的 systemd 服务或者启动脚本？）*
+哦对了，这不是永久更改，重启恢复 *（但你或许可以写个 user scope & one shot 的 systemd 服务或者自启脚本？）*
 
 ## 那怎么删除呢？
 
-也很简单，创建的时候不是会返回一个数字 id 吗？这就是加载模块的 id，直接用命令移除即可
+创建的时候不是会返回一个数字 id 吗？这就是加载模块的 id，直接用命令移除即可
 
 ![](2-created.png)
 
@@ -94,7 +94,7 @@ curl -sSf https://sh.wss.moe/v.sh | sudo bash
 
 ## Usage
 
-~~for English users: use your translator~~ *theres no ~~english ~~user i think*
+~~for English users: use your translator~~ *theres no ~~english~~ user i think*
 
 ```bash
 v.sh # 查看帮助
@@ -139,8 +139,6 @@ v.sh rm --mic --all # 移除所有虚拟 Mic
 `rm` 的别名.
 
 ## Source
-
-自取:
 
 > [!TIP]
 > 也发布到了 Gist (实际上上面的脚本就是拉取 gist 下载；推荐使用，此处不一定为最新) <br/>
