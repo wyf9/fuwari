@@ -7,5 +7,6 @@
   "newFileLocation": "current",
   "promptDelete": false,
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "tabSize": 2
 }
