@@ -88,7 +88,7 @@ gost -L=tcp://:1935/hkg06.contribute.live-video.net:1935 -F=socks5://127.0.0.1:1
 ```
 
 > [!IMPORTANT]
-> 替换 `:11451` 为你的 soocks 监听端口 <br/>
+> 替换 `:11451` 为你的 socks 监听端口 <br/>
 > 直播 rtmp 服务器地址 (Twitch) 在 https://ingest.twitch.tv/ingests 查找
 
 > 看到如下提示即为成功启动

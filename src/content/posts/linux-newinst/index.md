@@ -460,7 +460,7 @@ curl https://sh.wss.moe/bottles | sudo bash
 
 ✅
 
->Wine / Proton 兼容层管理器，用来运行 WIndows 应用
+>Wine / Proton 兼容层管理器，用来运行 Windows 应用
 
 https://github.com/bottlesdevs/Bottles
 

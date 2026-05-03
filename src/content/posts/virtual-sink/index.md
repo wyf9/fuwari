@@ -94,7 +94,7 @@ curl -sSf https://sh.wss.moe/v.sh | sudo bash
 
 ## Usage
 
-~~for English users: use your translator~~ *theres no ~~english~~ user i think*
+~~for English users: use your translator~~ *there's no ~~english~~ user i think*
 
 ```bash
 v.sh # 查看帮助

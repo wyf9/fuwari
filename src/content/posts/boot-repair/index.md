@@ -13,7 +13,7 @@ lang: ''
 
 凌晨感觉电脑有点卡, 索性输入 reboot 回车, 然后: **炸了**
 
-![buxybox](./1-buxybox.png)
+![busybox](./1-buxybox.png)
 
 总之就是进 busybox, exit 回车大概率退不出, 提示图中的 `ALERT! UUID=xxx does not exist. Dropping to a shell!`
 

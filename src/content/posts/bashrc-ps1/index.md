@@ -457,4 +457,4 @@ Write-Host "PowerShell 提示符已加载 (Git=$ShowGit, NewLine=$NewLine)" -For
 
 Grok 对话 (可以问它怎么用): https://grok.com/share/c2hhcmQtNA%3D%3D_afa0ab7e-326c-42b6-9cdc-9129f57ddafe
 
-CMD & Powershell 版没有测试, 如果有误 / 建议可以发评论, 我会修改
+CMD & PowerShell 版没有测试, 如果有误 / 建议可以发评论, 我会修改
