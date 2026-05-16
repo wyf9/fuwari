@@ -66,6 +66,9 @@ https://wyf9.top
 
 提交 Pull Request 等待我通过即可.
 
+> [!TIP]
+> 如不方便编辑文件 / 提交 PR 也可 [联系我](/contact) 添加.
+
 ---
 
 > Original CONTRIBUTING.md below
