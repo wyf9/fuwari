@@ -104,4 +104,10 @@ export const friends: {
 		avatar: "https://rhen.cloud/avatar.webp",
 		url: "https://blog.rhen.cloud",
 	},
+	{
+		name: "XFJの主页✨",
+		desc: "我永远喜欢哈次捏米库！！！",
+		avatar: "https://cdn.jsdelivr.net/gh/XFJ-YYQF/Picture@main/img/home192.webp",
+		url: "https://minecraftxfj.top",
+	},
 ];
