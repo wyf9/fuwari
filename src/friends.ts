@@ -31,7 +31,7 @@ export const friends: {
 		avatar: "https://cdn.mfawa.top/image/logo.svg",
 		url: "https://blog.imbee.top/",
 	},
-        {
+	{
 		name: "xhc861's Blog",
 		desc: "博客，远不止于博客~",
 		avatar: "https://xhc861.top/ava.jpg",
@@ -78,20 +78,20 @@ export const friends: {
 		name: "Murasame",
 		desc: "我已经下了决心，要与深爱的少女一起在这片土地生活下去。我对此无比自豪。",
 		avatar: "https://blog.shirayukinoa.top/_astro/Murasame.0zIy958b_ZajvDy.webp",
-		url: "https://blog.shirayukinoa.top/"
+		url: "https://blog.shirayukinoa.top/",
 	},
 	{
 		name: "Ad_closeNN's blog",
 		desc: "Ad_closeNN 的小站，时不时会刷新一些野生东西",
 		avatar: "https://adclosenn.top/assets/avatar.jpg",
-		url: "https://adclosenn.top/"
+		url: "https://adclosenn.top/",
 	},
-    {
-        name: "Rockaz's Wonderland",
-        desc: "add-qwq的小破站",
-        avatar: "https://www.rockaz.top/favicon.png",
-        url: "https://www.rockaz.top/"
-    },
+	{
+		name: "Rockaz's Wonderland",
+		desc: "add-qwq的小破站",
+		avatar: "https://www.rockaz.top/favicon.png",
+		url: "https://www.rockaz.top/",
+	},
 	{
 		name: "Esyka's Blog",
 		desc: "海阔凭鱼跃，天高任鸟飞",
@@ -104,4 +104,11 @@ export const friends: {
 		avatar: "https://rhen.cloud/avatar.webp",
 		url: "https://blog.rhen.cloud",
 	},
+	{
+		name: "雪诺的小博客",
+		desc: "技术小博客，每日分享网络相关知识，理解网络技术",
+		avatar: "https://blog.4365754.xyz/favicon.ico",
+		url: "https://blog.4365754.xyz/",
+	},
 ];
+
