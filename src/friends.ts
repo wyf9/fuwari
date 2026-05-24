@@ -9,7 +9,7 @@ export const friends: {
 		name: "SiiWay Team Home",
 		desc: "SiiWay 团队官方主页",
 		avatar: "https://icons.siiway.org/siiway/icon.svg",
-		url: "https://siiway.org",
+		url: "https://siiway.org/",
 		pin: true,
 	},
 	{
@@ -23,7 +23,7 @@ export const friends: {
 		desc: "欢迎来到小源151官方博客！",
 		avatar:
 			"https://www.gravatar.com/avatar/418e1da2b29ef51b1f86d6b2e041981d703c748aa0bd29831bac02fa9747faa7",
-		url: "https://blog.xiaoyuan151.com",
+		url: "https://blog.xiaoyuan151.com/",
 	},
 	{
 		name: "MIFENG BLOG",
@@ -41,25 +41,19 @@ export const friends: {
 		name: "fishcpy的小破站",
 		desc: "非淡泊无以明志，非宁静无以致远",
 		avatar: "https://www.fis.ink/img/logo.png",
-		url: "https://blog.fis.ink",
+		url: "https://blog.fis.ink/",
 	},
 	{
 		name: "AcoFork Blog",
 		desc: "Protect What You Love.",
 		avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
-		url: "https://blog.2b2x.cn",
+		url: "https://blog.2b2x.cn/",
 	},
 	{
 		name: "mxd's Blog",
 		desc: "Empowered by technology, inspired by life.",
 		avatar: "https://res.mxdyeah.com/favicon.webp",
 		url: "https://blog.mxdyeah.com/",
-	},
-	{
-		name: "LiyaoUniversity",
-		desc: "一座普通，或者不普通的大学",
-		avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=3168940165&spec=0",
-		url: "https://liyao.edu.kg/",
 	},
 	{
 		name: "洛初 的 档案馆",
@@ -86,22 +80,28 @@ export const friends: {
 		avatar: "https://adclosenn.top/assets/avatar.jpg",
 		url: "https://adclosenn.top/"
 	},
-    {
-        name: "Rockaz's Wonderland",
-        desc: "add-qwq的小破站",
-        avatar: "https://www.rockaz.top/favicon.png",
-        url: "https://www.rockaz.top/"
-    },
+	{
+		name: "Rockaz's Wonderland",
+		desc: "add-qwq的小破站",
+		avatar: "https://www.rockaz.top/favicon.png",
+		url: "https://www.rockaz.top/"
+	},
 	{
 		name: "Esyka's Blog",
 		desc: "海阔凭鱼跃，天高任鸟飞",
 		avatar: "https://www.esyka.top/images/logo.png",
-		url: "https://www.esyka.top",
+		url: "https://www.esyka.top/",
 	},
 	{
 		name: "RhenCloud's Blog",
 		desc: "趁世界还未重启之前 约一次爱恋",
 		avatar: "https://rhen.cloud/avatar.webp",
-		url: "https://blog.rhen.cloud",
+		url: "https://blog.rhen.cloud/",
+	},
+	{
+		name: "香草的日记",
+		desc: "与你的日常，便是奇迹！分享技术与日常。",
+		avatar: "https://www.xcnahida.cn/favicon.ico",
+		url: "https://www.xcnahida.cn/",
 	},
 ];
