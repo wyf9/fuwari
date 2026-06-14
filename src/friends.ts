@@ -21,8 +21,7 @@ export const friends: {
 	{
 		name: "小源151 的博客",
 		desc: "欢迎来到小源151官方博客！",
-		avatar:
-			"https://www.gravatar.com/avatar/418e1da2b29ef51b1f86d6b2e041981d703c748aa0bd29831bac02fa9747faa7",
+		avatar: "https://www.gravatar.com/avatar/418e1da2b29ef51b1f86d6b2e041981d703c748aa0bd29831bac02fa9747faa7",
 		url: "https://blog.xiaoyuan151.com/",
 	},
 	{
@@ -58,8 +57,7 @@ export const friends: {
 	{
 		name: "洛初 的 档案馆",
 		desc: "记录折腾过的各种东西",
-		avatar:
-			"https://weavatar.com/avatar/4857f63b6e75c96621f24af9b451144731f670b55996cc8f28ac130e1a32332d?s=160&d=mm&r=g",
+		avatar: "https://weavatar.com/avatar/4857f63b6e75c96621f24af9b451144731f670b55996cc8f28ac130e1a32332d?s=160&d=mm&r=g",
 		url: "https://blog.luochu.cc/",
 	},
 	{
@@ -87,12 +85,6 @@ export const friends: {
 		url: "https://www.rockaz.top/",
 	},
 	{
-		name: "Rockaz's Wonderland",
-		desc: "add-qwq的小破站",
-		avatar: "https://www.rockaz.top/favicon.png",
-		url: "https://www.rockaz.top/"
-	},
-	{
 		name: "Esyka's Blog",
 		desc: "海阔凭鱼跃，天高任鸟飞",
 		avatar: "https://www.esyka.top/images/logo.png",
@@ -110,11 +102,17 @@ export const friends: {
 		avatar: "https://www.xcnahida.cn/favicon.ico",
 		url: "https://www.xcnahida.cn/",
 	},
+  {
+		name: "XFJの主页✨",
+		desc: "我永远喜欢哈次捏米库！！！",
+		avatar: "https://cdn.jsdelivr.net/gh/XFJ-YYQF/Picture@main/img/home192.webp",
+		url: "https://minecraftxfj.top",
+	},
 	{
 		name: "雪诺的小博客",
 		desc: "技术小博客，每日分享网络相关知识，理解网络技术",
 		avatar: "https://blog.4365754.xyz/favicon.ico",
 		url: "https://blog.4365754.xyz/",
-	},
+  },
 ];
 
